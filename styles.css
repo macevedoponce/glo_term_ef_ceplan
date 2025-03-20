@@ -375,6 +375,13 @@ input:checked + .slider:before {
     transform: translateY(-50px);
 }
 
+.modal-content p {
+    font-size: 1.2rem;
+    color: inherit;
+    text-align: justify; /* Justificar el texto */
+    line-height: 1.6; /* Mejorar la legibilidad */
+}
+
 .modal.open .modal-content {
     opacity: 1;
     transform: translateY(0);
@@ -452,4 +459,72 @@ input:checked + .slider:before {
     .modal p {
         font-size: 1rem;
     }
+}
+
+/* Estilos para la sección del glosario */
+.glosario-section {
+    padding: 40px 20px;
+    background-color: #121212;
+}
+
+.light-mode .glosario-section {
+    background-color: #ffffff;
+}
+
+/* Estilos para cada temática */
+.tematica {
+    margin-bottom: 40px;
+}
+
+.tematica h2 {
+    color: #ffffff;
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+    padding-bottom: 10px;
+    text-align: center;
+    border-bottom: 2px solid transparent; /* Color de la línea inicial transparente */
+    transition: border-color 0.3s ease; /* Transición suave */
+}
+
+.light-mode .tematica h2 {
+    color: #333;
+}
+
+/* Estilos para los términos individuales */
+.term {
+    background-color: #2c2c2c;
+    padding: 20px;
+    border-left: 5px solid;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    margin-bottom: 20px;
+}
+
+.light-mode .term {
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.term:hover {
+    background-color: #333;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
+}
+
+.light-mode .term:hover {
+    background-color: #e0e0e0;
+}
+
+.term-header {
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+}
+
+.term p {
+    font-size: 1.2rem;
+    color: #b0b0b0;
+}
+
+.light-mode .term p {
+    color: #333;
 }

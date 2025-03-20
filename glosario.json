@@ -4,418 +4,348 @@
   "logo": "logo_ceplan.png",
   "logo_dark": "logo_ceplan_dark.png",
   "tematicas": {
-    "Social": {
-      "color": "#FF5722",
-      "riesgos": [
-        {
-          "termino": "Erosión de la cohesión social",
-          "descripcion": "Debilitamiento de los lazos y vínculos que mantienen unida a una sociedad. Esto puede surgir debido a factores como la desigualdad económica, la polarización política, la propagación de desinformación y la exclusión social."
-        },
-        {
-          "termino": "Crisis alimentaria",
-          "descripcion": "Aumento a gran escala del hambre y/o malnutrición a nivel regional o mundial, producto de un inadecuado acceso a cantidades apropiadas y calidad de alimentos."
-        },
-        {
-          "termino": "Colapso del sistema de seguridad social",
-          "descripcion": "Posibilidad de que el sistema de seguridad social del país, que incluye la pensión, salud y seguro social, no pueda satisfacer las necesidades de la población debido a diversos factores, como la falta de financiamiento, la baja productividad, el envejecimiento de la población, entre otros. Este riesgo puede generar inestabilidad social, desigualdad y pobreza en los sectores más vulnerables de la población."
-        },
-        {
-          "termino": "Colusión de medios de comunicación",
-          "descripcion": "Posibilidad de que los medios de comunicación, que son una fuente importante de información y opinión para la sociedad, coludan para manipular la información y controlar la narrativa de los eventos en beneficio de sus intereses particulares, en lugar de actuar como una fuente objetiva e imparcial de información."
-        },
-        {
-          "termino": "Contagio masivo por enfermedades infecciosas",
-          "descripcion": "Propagación incontrolada de enfermedades infecciosas, como resultado de la resistencia a los antibióticos, antivirales y otros tratamientos, que ocasiona muertes masivas."
-        },
-        {
-          "termino": "Crisis del sistema educativo",
-          "descripcion": "Posibilidad de que el sistema educativo del país no sea capaz de satisfacer las necesidades y demandas de la sociedad, lo que podría limitar el desarrollo y el progreso del país."
-        },
-        {
-          "termino": "Erosión de la confianza juvenil por desilusión generalizada",
-          "descripcion": "Desconexión de los jóvenes y falta de confianza y/o pérdida de confianza con las estructuras económicas, políticas y sociales existentes a escala mundial, lo que tiene un impacto negativo en la estabilidad social, el bienestar individual y la productividad económica."
-        },
-        {
-          "termino": "Exacerbación de conflictos sociales internos",
-          "descripcion": "Intensificación de problemas sociales y tensiones en una comunidad, sociedad o país debido a conflictos socioambientales, desigualdades económicas, polarización política, tensiones étnicas o religiosas, entre otros factores."
-        },
-        {
-          "termino": "Exacerbación de los problemas de salud mental",
-          "descripcion": "Aumento de la incidencia de trastornos mentales, como la ansiedad y la depresión, en la población debido a la pandemia y otros factores relacionados con el cambio social, como la economía, el clima y la tecnología, lo que puede tener consecuencias negativas en la calidad de vida y el bienestar social."
-        },
-        {
-          "termino": "Fracaso de la planificación urbana",
-          "descripcion": "Inadecuada o inexistente planificación de las ciudades, asociada a una dispersión urbana que genera desafíos sociales, ambientales y de salud."
-        },
-        {
-          "termino": "Exacerbación de la criminalidad",
-          "descripcion": "Refiere al aumento o intensificación de las actividades criminales dentro de una sociedad. Este fenómeno puede ser impulsado por factores como el desempleo, la desigualdad económica, la inestabilidad política, y la falta de efectividad en las políticas de seguridad pública."
-        }
-      ],
-      "oportunidades": [
-        {
-          "termino": "Optimización en el desarrollo de vacunas contra enfermedades altamente transmisibles",
-          "descripcion": "Posibilidad de optimizar la investigación y el desarrollo de nuevas vacunas contra enfermedades infecciosas, incluyendo virus y bacterias, gracias a los avances tecnológicos y científicos en el campo de la biotecnología y la genómica.."
-        },
-        {
-          "termino": "Desarrollo de habilidades STEM en la educación",
-          "descripcion": "Refiere al fomento y la integración sistemática de las disciplinas de Ciencia, Tecnología, Ingeniería y Matemáticas (STEM, por sus siglas en inglés) en los programas educativos. Este desarrollo se centra en preparar a los estudiantes con las competencias y conocimientos necesarios para comprender y aplicar principios científicos y tecnológicos, resolver problemas complejos y fomentar la innovación."
-        },
-        {
-          "termino": "Desarrollo de la edición genética en medicina",
-          "descripcion": "Refiere al avance y aplicación de tecnologías que permiten modificar el ADN de organismos vivos, incluyendo humanos, con alta precisión. En medicina, la edición genética se utiliza para corregir mutaciones que causan enfermedades, mejorar la resistencia a patologías y optimizar terapias genéticas."
-        },
-        {
-          "termino": "Expansión de la enseñanza de lenguajes de programación en el sistema educativo",
-          "descripcion": "Se refiere al aumento y la integración sistemática de la enseñanza de lenguajes de programación como parte del currículo escolar en todos los niveles educativos. Esta expansión busca dotar a los estudiantes de habilidades fundamentales en codificación y pensamiento computacional, considerados esenciales en la era digital."
-        },
-        {
-          "termino": "Transformación de la educación superior con IA",
-          "descripcion": "Posibilidad de aplicar la Inteligencia Artificial en instituciones educativas de nivel universitario para personalizar el aprendizaje, mejorar la eficiencia administrativa, impulsar la investigación y fomentar la colaboración en línea. Implica adaptar contenidos y métodos de enseñanza según las necesidades individuales de los estudiantes, automatizar tareas administrativas, acelerar el análisis de datos científicos, y facilitar la interacción y el trabajo en proyectos entre estudiantes y profesores."
-        },
-        {
-          "termino": "Red estudiantil colaborativa en la nube",
-          "descripcion": "Uso de plataformas de tecnología en la nube que permiten a los estudiantes trabajar juntos en proyectos de manera más eficiente y efectiva, independientemente de su ubicación geográfica."
-        },
-        {
-          "termino": "Desarrollo de biología sintética y la ingeniería de tejidos para la creación de órganos artificiales",
-          "descripcion": "Refiere al uso de principios y técnicas de la biología sintética y la ingeniería de tejidos para diseñar y fabricar órganos artificiales que puedan replicar las funciones de órganos humanos naturales."
-        },
-        {
-          "termino": "Neurotecnologías para enfermedades degenerativas",
-          "descripcion": "Se refiere al desarrollo y aplicación de tecnologías avanzadas diseñadas para diagnosticar, monitorear, tratar o mitigar los efectos de enfermedades degenerativas del sistema nervioso, como el Alzheimer, el Parkinson o la esclerosis múltiple."
-        },
-        {
-          "termino": "Tratamiento de enfermedades mediante el uso de la nanotecnología",
-          "descripcion": "Se refiere al empleo de materiales y dispositivos a escala nanométrica para diagnosticar, prevenir y tratar enfermedades. La nanotecnología en medicina puede incluir el diseño de nanopartículas que actúan como vehículos para administrar medicamentos de manera más eficaz y específica a las células enfermas, minimizando los efectos secundarios en tejidos sanos."
-        }
-      ]
-    },
     "Ambiental": {
       "color": "#4CAF50",
-      "riesgos": [
+      "terminos": [
         {
-          "termino": "Colapso de los ecosistemas",
-          "descripcion": "Consecuencias irreversibles para el ambiente, así como para los bienes y servicios que los ecosistemas proporcionan a la sociedad, resultando en recursos severamente agotados para la humanidad."
+          "termino": "Extraordinario Fenómeno de El Niño    ",
+          "descripcion": "El Fenómeno de El Niño es un evento climático caracterizado por el calentamiento anómalo de las aguas del océano Pacífico ecuatorial, el cual altera los patrones meteorológicos a nivel global. El cambio climático y el aumento de la temperatura oceánica han intensificado su frecuencia y magnitud, incrementando la probabilidad de un episodio extraordinario con impactos devastadores. Las alteraciones en las corrientes marinas y la atmósfera provocan eventos extremos como sequías prolongadas, inundaciones severas, pérdida de cultivos y crisis en la seguridad hídrica y alimentaria. En un contexto de calentamiento global acelerado, los gobiernos y organismos internacionales enfrentan desafíos en la planificación de respuestas ante eventos climáticos sin precedentes, aumentando el debate sobre la necesidad de implementar estrategias de adaptación climática y geoingeniería."
         },
         {
-          "termino": "Crisis de recursos naturales",
-          "descripcion": "Amenaza de agotamiento, escasez o degradación de recursos esenciales como agua, alimentos, suelo, energía y biodiversidad, debido a factores como el crecimiento poblacional, la urbanización descontrolada, la agricultura insostenible, el cambio climático y la explotación irresponsable de recursos."
+          "termino": "Liberación de patógenos por deshielo de glaciares ",
+          "descripcion": "El deshielo acelerado de los glaciares debido al cambio climático está liberando microorganismos y patógenos prehistóricos que han permanecido atrapados en el hielo durante milenios. El aumento global de las temperaturas, la actividad minera en regiones árticas y el derretimiento del permafrost están exponiendo bacterias y virus potencialmente desconocidos, algunos de los cuales podrían ser resistentes a los antibióticos modernos o representar riesgos sanitarios imprevistos. Como impacto, esta liberación podría dar lugar a brotes de enfermedades nuevas o la reactivación de patógenos extintos, afectando la biodiversidad y la salud pública. Además, el aumento del tráfico humano en el Ártico y la Antártida facilita la dispersión de estos microorganismos, lo que podría desencadenar crisis sanitarias de difícil contención. En un contexto de crisis climática, la comunidad científica advierte sobre la necesidad de monitorear los glaciares y fortalecer la vigilancia epidemiológica para evitar posibles pandemias emergentes."
         },
         {
-          "termino": "Crisis en la gestión de residuos",
-          "descripcion": "Falta de capacidad y/o infraestructura para gestionar adecuadamente los residuos generados por la población y las empresas. Esto puede incluir la acumulación de residuos en vertederos abiertos, la quema de residuos a cielo abierto y la falta de tratamiento y disposición adecuada de residuos peligrosos."
+          "termino": "Expansión de la ansiedad climática  ",
+          "descripcion": "La ansiedad climática es una afección psicológica creciente derivada de la preocupación por los efectos del cambio climático y la incertidumbre sobre el futuro del planeta. El aumento de eventos climáticos extremos, la difusión de información alarmante en redes sociales, la percepción de inacción gubernamental y la crisis ecológica en curso están acelerando esta tendencia, especialmente en jóvenes y comunidades vulnerables. Como impacto, la ansiedad climática está afectando la salud mental, reduciendo la esperanza en el futuro y alterando patrones de consumo y comportamiento, con un mayor activismo ambiental, cambios en la cantidad de hijos deseados, y aumento del estrés crónico. En un contexto de degradación ambiental progresiva, la necesidad de políticas de adaptación, educación emocional y estrategias de resiliencia climática se vuelve esencial para evitar una crisis de salud mental global"
         },
         {
-          "termino": "Daños ambientales causados por el hombre a gran escala",
-          "descripcion": "Fracaso en prevenir grandes daños y desastres causados por el hombre (como derrames de petróleo, contaminación radiactiva o deforestación), que generan daños a las personas, la infraestructura, la propiedad, la actividad económica y el ambiente."
+          "termino": "Erupción volcánica de gran magnitud ",
+          "descripcion": "La actividad volcánica extrema puede desencadenar una erupción de gran magnitud con impactos globales, alterando el clima, la economía y la seguridad alimentaria. El aumento del vulcanismo asociado a la actividad tectónica, el deshielo de glaciares que reduce la presión sobre las cámaras magmáticas y la acumulación de energía en supervolcanes como Yellowstone, Campi Flegrei o Toba están incrementando el riesgo de un evento catastrófico. Como impacto, una erupción masiva podría liberar millones de toneladas de ceniza y gases a la atmósfera, bloqueando la radiación solar, reduciendo las temperaturas globales y afectando la producción agrícola, generando un posible 'invierno volcánico'. Además, las explosiones piroclásticas y flujos de lava causarían devastación regional, desplazamientos forzados y crisis humanitarias, mientras que la disrupción del transporte aéreo y marítimo afectaría las cadenas de suministro globales. En un contexto de crisis climática, un evento de esta magnitud podría acelerar fenómenos extremos, agravando la vulnerabilidad de las sociedades ante desastres naturales."
         },
         {
-          "termino": "Fenómenos naturales y meteorológicos extremos",
-          "descripcion": "Destrucción o daños graves a la infraestructura y/o daños ambientales, así como pérdida de vidas humanas, causados por desastres geofísicos (terremotos, actividad volcánica, deslizamientos de tierra, tsunamis, etc.)."
+          "termino": "Uso de la justicia a favor de la acción climática ",
+          "descripcion": "El poder judicial se convierte en una herramienta clave para la acción climática, con tribunales de todo el mundo emitiendo fallos que obligan a gobiernos y empresas a reducir emisiones, proteger ecosistemas y garantizar derechos ambientales. El aumento de litigios climáticos, el reconocimiento legal del cambio climático como una amenaza a los derechos humanos y el activismo jurídico impulsado por organizaciones ambientales y comunidades afectadas están acelerando esta tendencia. Como impacto, el uso de la justicia en la lucha climática está forzando cambios en políticas públicas, aumentando la responsabilidad corporativa y redefiniendo el derecho ambiental, pero también genera conflictos con industrias contaminantes y gobiernos que buscan frenar regulaciones estrictas. En un contexto de crisis climática y demandas de justicia intergeneracional, la acción judicial podría consolidarse como un mecanismo clave para acelerar la transición ecológica y garantizar la protección del planeta a través de marcos legales más ambiciosos y vinculantes."
+        },
+        {
+          "termino": "Gran tormenta solar ",
+          "descripcion": "Una tormenta solar de gran magnitud podría generar una interrupción global en sistemas eléctricos, telecomunicaciones y navegación por satélite, afectando infraestructuras críticas y la vida cotidiana. El aumento de la actividad solar en ciclos de alta intensidad, la dependencia de las redes eléctricas y satelitales, y la falta de sistemas de protección adecuados están incrementando la vulnerabilidad ante un evento extremo. Como impacto, una eyección de masa coronal masiva podría colapsar redes eléctricas a nivel continental, deshabilitar satélites, interrumpir internet y generar caos en el transporte y las finanzas, además de poner en riesgo a astronautas y sistemas espaciales. En un contexto de creciente digitalización y dependencia tecnológica, una gran tormenta solar podría desencadenar un apagón global temporal, con consecuencias económicas y sociales devastadoras, reavivando la necesidad de mejorar la resiliencia de las infraestructuras tecnológicas."
+        },
+        {
+          "termino": "Contaminación silenciosa de los alimentos ",
+          "descripcion": "El consumo de alimentos contaminados con sustancias tóxicas, microplásticos, residuos químicos y metales pesados se convierte en un problema crítico para la salud pública, sin que los consumidores sean plenamente conscientes de su impacto. El uso excesivo de pesticidas y fertilizantes, la contaminación del agua utilizada en la producción agrícola, la proliferación de envases plásticos y la bioacumulación de sustancias nocivas en la cadena alimentaria están acelerando esta crisis. Como impacto, la contaminación silenciosa de los alimentos aumenta la incidencia de enfermedades metabólicas, cáncer, alteraciones hormonales y trastornos neurológicos, al tiempo que debilita la confianza en la industria alimentaria y genera la necesidad de regulaciones más estrictas. En un contexto de cambio climático y producción masiva de alimentos procesados, la falta de mecanismos de control efectivos podría exacerbar esta crisis, impulsando el desarrollo de tecnologías de detección avanzada y un mayor escrutinio sobre la calidad de los alimentos consumidos a nivel global."
+        },
+        {
+          "termino": "Debilitamiento del campo magnético de la Tierra ",
+          "descripcion": "El campo magnético de la Tierra, crucial para proteger al planeta de la radiación solar y cósmica, está experimentando un debilitamiento progresivo que podría afectar la tecnología y el clima global. Las anomalías en la magnetósfera, el desplazamiento del polo norte magnético, y la posibilidad de una inversión de los polos están acelerando esta tendencia, lo que podría generar mayor exposición a tormentas solares, fallos en redes eléctricas y satélites, y alteraciones en los patrones climáticos. Como impacto, un colapso parcial del campo magnético podría desestabilizar las telecomunicaciones, afectar la aviación y la navegación, e incluso comprometer la biosfera al aumentar la radiación en la superficie terrestre. En un contexto de creciente dependencia de infraestructuras digitales y satelitales, el monitoreo constante del campo magnético y el desarrollo de tecnologías de mitigación serán clave para evitar disrupciones en la vida moderna."
+        },
+        {
+          "termino": "Descontrol por agentes biológicos sintéticos ",
+          "descripcion": "El avance acelerado de la biología sintética y la ingeniería genética, junto con la accesibilidad de herramientas como CRISPR, está facilitando la creación de organismos modificados, en principio con fines médicos, agrícolas o industriales. Sin embargo, un mal manejo o liberación accidental de estos agentes podría generar pandemias no naturales, resistencia biológica impredecible o desequilibrios ecológicos. En un contexto de creciente experimentación con organismos sintéticos y bioseguridad limitada, este escenario representa una amenaza global para la salud humana, la biodiversidad y la estabilidad socioeconómica."
+        },
+        {
+          "termino": "Descargas masivas de sulfuro de hidrógeno de océanos desoxigenados",
+          "descripcion": "El calentamiento global y la contaminación están reduciendo los niveles de oxígeno en los océanos, creando zonas muertas donde bacterias anaeróbicas producen sulfuro de hidrógeno, un gas tóxico. Eventos masivos de liberación de este gas podrían envenenar ecosistemas marinos, afectar la pesca y liberar emisiones peligrosas a la atmósfera, con impactos en la salud humana y el clima. En un contexto de creciente estrés oceánico y dependencia global de los recursos marinos, este fenómeno representa una amenaza silenciosa pero devastadora para la biodiversidad y la economía mundial."
+        },
+        {
+          "termino": "Colisión de asteroides y cometas ",
+          "descripcion": "El impacto de un asteroide o cometa de gran tamaño podría tener consecuencias devastadoras, como tsunamis, incendios globales, inviernos nucleares y la extinción masiva de especies. Aunque la probabilidad es baja, la falta de sistemas de detección y desviación completamente efectivos aumenta el riesgo. En un contexto de creciente exploración espacial y avances en tecnología de defensa planetaria, la preparación para este tipo de eventos es crucial para mitigar su impacto potencial en la civilización humana y los ecosistemas globales."
+        },
+        {
+          "termino": "Amenaza por explosiones de supernovas y estallidos de rayos gamma",
+          "descripcion": "Una supernova cercana o un estallido de rayos gamma (GRB) podría emitir radiación intensa capaz de dañar la capa de ozono, alterar el clima global y exponer a la Tierra a niveles mortales de radiación ultravioleta. Aunque estos eventos son extremadamente raros, su impacto sería catastrófico, afectando la biosfera y amenazando la supervivencia de muchas especies, incluidos los humanos. En un contexto de creciente conocimiento astronómico y monitoreo del espacio profundo, la preparación para estos fenómenos cósmicos sigue siendo un desafío científico y de planificación a largo plazo."
+        },
+        {
+          "termino": "Incontrolables pandemias más graves ",
+          "descripcion": "La globalización, la urbanización acelerada y la alteración de ecosistemas están facilitando la aparición y propagación de patógenos más virulentos y resistentes. Una pandemia futura, potencialmente causada por un virus diseñado o una mutación natural, podría superar los sistemas de salud actuales, causando colapsos económicos y sociales. En un contexto de creciente interconexión y presión sobre los recursos sanitarios, la preparación y cooperación global son esenciales para prevenir y mitigar el impacto de pandemias incontrolables."
         },
         {
           "termino": "Fracaso de la acción climática",
-          "descripcion": "ncapacidad o la insuficiencia tanto a nivel global como a nivel país para abordar de manera eficaz el desafío del cambio climático. Esto conlleva la falta de implementación de políticas y medidas para reducir las emisiones de gases de efecto invernadero, adaptarse a los efectos del cambio climático y limitar el calentamiento global."
-        }
-      ],
-      "oportunidades": [
-        {
-          "termino": "Desarrollo de energía limpia de fuentes naturales",
-          "descripcion": "Posibilidad de utilizar fuentes renovables y sostenibles de energía, como la solar, la eólica, la hidráulica, la geotérmica y la biomasa, para generar electricidad y reducir la dependencia de combustibles fósiles que contribuyen al cambio climático y la contaminación del medioambiente."
-        },
-        {
-          "termino": "Desarrollo de la biotecnología y bioingeniería",
-          "descripcion": "Utilización de avances en la biología molecular, la bioquímica, la genética y la ingeniería para desarrollar soluciones innovadoras en diversas áreas, como la salud, la alimentación, el medioambiente y la industria."
-        },
-        {
-          "termino": "Desarrollo de la industria de fertilizantes naturales",
-          "descripcion": "Promoción de prácticas agrícolas sostenibles y respetuosas con el medio ambiente a través del uso de fertilizantes naturales. Los fertilizantes naturales son aquellos que se producen a partir de recursos naturales, como estiércol, compost, algas, lodos de depuradoras, entre otros. Estos fertilizantes no contienen productos químicos tóxicos ni generan residuos peligrosos para el medioambiente, lo que los hace más sostenibles y seguros para el uso en la agricultura."
-        },
-        {
-          "termino": "Aprovechamiento de la energía eléctrica en el sector automotriz",
-          "descripcion": "Desarrollo y uso de tecnologías que permiten la electrificación de vehículos y medios de transporte, como automóviles, autobuses, trenes, bicicletas y barcos. Esta oportunidad incluye la implementación de infraestructuras para la carga de baterías, la reducción de los costos de producción y adquisición de vehículos eléctricos, y la mejora de la eficiencia energética y la reducción de emisiones de gases de efecto invernadero en el sector del transporte."
-        },
-        {
-          "termino": "Implementación de tecnología para el uso eficiente del agua",
-          "descripcion": "Uso de tecnologías avanzadas para optimizar la gestión del agua y reducir su consumo. La implementación de tecnologías eficientes en el uso del agua puede permitir una mejor gestión y conservación de los recursos hídricos, reducir los costos de operación, mejorar la calidad del agua, y aumentar la sostenibilidad de las actividades económicas que dependen del uso del agua."
-        },
-        {
-          "termino": "Mayor inversión en construcciones resilientes",
-          "descripcion": "Aumento de inversiones dirigidas a fortalecer las viviendas e infraestructuras de las ciudades como hospitales, centros educativos, entre otros, para así incrementar su resiliencia a eventos climáticos extremos."
-        },
-        {
-          "termino": "Restauración de bosques para la industria maderera sostenible",
-          "descripcion": "Beneficios del aprovechamiento sostenible de los servicios ecosistémicos de los bosques, no limitado al suministro de recursos naturales (madera, agua, alimentos, combustibles, recursos genéticos, etc.), sino también considerando los servicios de regulación (climática, hidrológica, de inundaciones, de protección costera, etc.) y culturales (cosmovisión, identidad, turismo, trabajo, etc.)."
-        },
-        {
-          "termino": "Reutilización de las emisiones de carbono",
-          "descripcion": "Posibilidad de capturar el dióxido de carbono (CO₂) emitido por procesos industriales y utilizarlo para crear productos de valor añadido, como materiales de construcción, combustibles sintéticos y productos químicos."
-        },
-        {
-          "termino": "Expansión de la economía regenerativa",
-          "descripcion": "Refiere al crecimiento de prácticas y modelos económicos que no solo buscan minimizar el impacto ambiental, sino que activamente restauran y mejoran los ecosistemas y las comunidades. Esto incluye tecnologías limpias, agricultura regenerativa y negocios circulares, promoviendo la resiliencia y la equidad a largo plazo."
-        },
-        {
-          "termino": "Desarrollo de tecnología de alerta temprana de desastres naturales",
-          "descripcion": "Refiere a la creación y mejora de sistemas tecnológicos diseñados para detectar y advertir sobre la inminencia de desastres naturales, como terremotos, tsunamis, huracanes o inundaciones, con suficiente anticipación para permitir la evacuación y otras medidas de mitigación. Estas tecnologías pueden incluir sensores sísmicos, radares meteorológicos, satélites y sistemas de comunicación avanzada."
-        }
-      ]
-    },
-    "Tecnológica": {
-      "color": "#03A9F4",
-      "riesgos": [
-        {
-          "termino": "Exacerbación de ciberespionaje",
-          "descripcion": "Aumento significativo en la cantidad y la complejidad de los ataques cibernéticos destinados a obtener información confidencial o secretos comerciales. Estos ataques pueden ser llevados a cabo por actores estatales o no estatales, y pueden tener graves consecuencias para las víctimas."
-        },
-        {
-          "termino": "Fallo de la infraestructura de telecomunicaciones",
-          "descripcion": "Interrupción del funcionamiento de infraestructura tecnológica crítica, como Internet, satélites y redes de datos, causando una disrupción ampliamente extendida."
-        },
-        {
-          "termino": "Proliferación del Deep Fake",
-          "descripcion": "Refiere al aumento y diseminación de contenido audiovisual manipulado o generado por inteligencia artificial que imita de manera convincente a personas reales diciendo o haciendo cosas que nunca dijeron o hicieron. Esta tecnología puede utilizarse en campos como el entretenimiento y la educación, pero también presenta riesgos significativos al ser empleada para la desinformación, el fraude y la manipulación de la opinión pública."
-        },
-        {
-          "termino": "Ruptura de ciberseguridad",
-          "descripcion": "Posibilidad de que los sistemas informáticos y tecnológicos del país sufran ataques cibernéticos y/o fallas en su seguridad, lo que podría generar la interrupción de servicios esenciales y la exposición de información confidencial."
-        },
-        {
-          "termino": "Dependencia excesiva de la tecnología y la automatización",
-          "descripcion": "Posibilidad de que la creciente dependencia de la tecnología y la automatización en el lugar de trabajo pueda tener consecuencias negativas en los trabajadores y en la economía en general."
-        },
-        {
-          "termino": "Fallo en la supervisión y regulación de la implementación de la IA",
-          "descripcion": "Posibilidad de que la implementación de la inteligencia artificial (IA) no esté adecuadamente supervisada o regulada, lo que puede llevar a consecuencias no deseadas o incluso peligrosas. Esto puede incluir el mal uso de la IA por parte de actores malintencionados, la falta de transparencia en la toma de decisiones de los sistemas de IA y la falta de responsabilidad por los resultados de los sistemas de IA."
-        },
-        {
-          "termino": "Pérdida masiva de empleos por la automatización en los procesos productivos",
-          "descripcion": "Posibilidad de que la automatización y la robótica en la producción y los servicios generen una disrupción significativa en el mercado laboral, lo que podría llevar a una pérdida masiva de empleos en varios sectores. Esto podría tener consecuencias económicas y sociales negativas, como el aumento del desempleo, la reducción de los ingresos y la creciente desigualdad, entre otros factores."
-        },
-        {
-          "termino": "Proliferación de armas autónomas",
-          "descripcion": "Posibilidad de que los sistemas autónomos de armamento sean desarrollados y utilizados por actores malintencionados para fines violentos, lo que podría tener consecuencias catastróficas en la seguridad internacional y el bienestar social. Esto se debe a que estos sistemas tienen la capacidad de tomar decisiones de manera autónoma, sin la intervención humana, lo que hace que sean difíciles de controlar y pueden actuar de manera impredecible."
-        },
-        {
-          "termino": "Sesgos y discriminación por implementación de IA en procesos cotidianos",
-          "descripcion": "Posibilidad de que los sistemas de inteligencia artificial (IA) puedan producir resultados sesgados o discriminatorios al ser implementados en procesos cotidianos, como la selección de candidatos para empleos o la evaluación de solicitudes de préstamos."
-        },
-        {
-          "termino": "Concentración del poder tecnológico",
-          "descripcion": "Refiere a la acumulación del control sobre tecnologías clave, infraestructuras y datos por un número reducido de empresas o entidades, lo cual puede limitar la competencia y la innovación en el sector. Esta concentración a menudo resulta en un mercado dominado por unos pocos actores grandes, que pueden influir en estándares tecnológicos, precios, y en el acceso al mercado para nuevas empresas."
-        }
-      ],
-      "oportunidades": [
-        {
-          "termino": "Desarrollo de tecnologías para realidades no físicas",
-          "descripcion": "Creación de herramientas tecnológicas que permitan la creación de experiencias virtuales o aumentadas en diferentes ámbitos, como la educación, el entretenimiento, la publicidad, entre otros. Esto puede impulsar el desarrollo de nuevas empresas y empleos en el sector tecnológico, así como mejorar la eficiencia y la calidad de diferentes procesos y servicios."
-        },
-        {
-          "termino": "Expansión de la red colaborativa de datos abiertos para IA",
-          "descripcion": "Creación de una plataforma en línea para el intercambio seguro y accesible de datos abiertos entre organizaciones y comunidades permitirá mejorar la eficacia de los algoritmos de inteligencia artificial (IA). Además, fomentará la colaboración y transparencia en el intercambio de datos, lo que permitirá la creación de modelos de IA más precisos y confiables que podrían tener un impacto positivo en áreas como la medicina, la industria y la agricultura."
-        },
-        {
-          "termino": "Expansión de la automatización y robótica en los servicios de asistencia personal y procesos Refiere al",
-          "descripcion": "Refiere al crecimiento en el uso de tecnologías de automatización y robots en la prestación de servicios de asistencia personal y en la ejecución de diversos procesos. Esta expansión implica la incorporación de dispositivos y sistemas automatizados para realizar tareas que tradicionalmente requerían intervención humana, como la atención al cliente, cuidado de la salud, y administración de tareas domésticas o administrativas."
-        },
-        {
-          "termino": "Seguridad de las transacciones digitales",
-          "descripcion": "Desarrollo de tecnologías y medidas que protejan de manera efectiva la información y los datos en línea, especialmente durante el proceso de transacciones financieras y comerciales. Esto puede incluir la implementación de sistemas de encriptación avanzados, autenticación multifactorial, biometría y tecnologías de reconocimiento facial."
-        },
-        {
-          "termino": "Potenciación e implementación de la IA en la generación de nuevas tecnologías",
-          "descripcion": "Posibilidad de utilizar la IA en el desarrollo de innovaciones tecnológicas y la mejora de procesos existentes. Con la creciente cantidad de datos disponibles y la capacidad de procesamiento de la computación en la nube, la IA se ha convertido en una herramienta poderosa para descubrir patrones y tendencias en los datos que de otra manera serían difíciles de detectar."
-        },
-        {
-          "termino": "Potenciación del aprendizaje con blockchain",
-          "descripcion": "Aplicación de la tecnología blockchain en la educación con el fin de potenciar la calidad y la eficiencia del proceso de enseñanza-aprendizaje. Mediante la tecnología blockchain se puede establecer registros seguros, inmutables y verificables de los logros académicos y las credenciales de los estudiantes, lo cual simplifica el proceso de evaluación y reconocimiento de títulos y certificaciones."
-        },
-        {
-          "termino": "Desarrollo del cloud computing en procesos industriales",
-          "descripcion": "Se refiere a la integración creciente de la computación en la nube en la industria para optimizar y automatizar procesos de producción y gestión. Este desarrollo permite a las empresas acceder a recursos informáticos escalables y a demanda, como almacenamiento de datos, procesamiento y aplicaciones de software, sin la necesidad de infraestructura física costosa en sus instalaciones."
-        },
-        {
-          "termino": "Desarrollo de Organizaciones Exponenciales (ExO) como nuevo modelo de negocio",
-          "descripcion": "Refiere al surgimiento y adopción de un modelo de negocio que se caracteriza por su capacidad para escalar su impacto de manera significativamente más rápida y eficiente que las organizaciones tradicionales, gracias al aprovechamiento de tecnologías emergentes y nuevas metodologías organizativas. Las ExO se centran en la flexibilidad, la adaptabilidad y la utilización de recursos externos para fomentar la innovación y el crecimiento."
-        },
-        {
-          "termino": "Desarrollo de la Agricultura 4.0",
-          "descripcion": "Se refiere a la transformación tecnológica del sector agrícola mediante la integración de tecnologías digitales y automatizadas, inspirada en los principios de la Industria 4.0. Este desarrollo incluye el uso de sensores IoT (Internet de las Cosas), drones, robótica, inteligencia artificial y análisis de datos para optimizar procesos como la siembra, irrigación, fertilización y cosecha."
+          "descripcion": "La administración de Donald Trump, en sus primeras semanas en el cargo, ha implementado órdenes ejecutivas que amenazan el progreso en acción climática y tecnología verde en EE.UU. Entre las medidas más relevantes, destaca su intención de retirar al país del Acuerdo de París, eliminar subsidios y regulaciones favorables a los vehículos eléctricos, bloquear permisos para proyectos de energía eólica y congelar fondos destinados a iniciativas climáticas bajo la Ley de Reducción de la Inflación y la Ley de Infraestructura Bipartidista. Estas acciones podrían desacelerar la transición energética, generar incertidumbre en el sector y desencadenar disputas legales sobre el alcance del poder federal para revocar normas y financiamiento previamente establecidos."
         }
       ]
     },
     "Económica": {
       "color": "#FFC107",
-      "riesgos": [
+      "terminos": [
         {
-          "termino": "Bancarrota masiva de empresas",
-          "descripcion": "Aumento sistemático y virulento de la quiebra de empresas del sector formal de la economía."
+          "termino": "Colapso económico en Estados Unidos ",
+          "descripcion": "Una combinación de crisis de deuda, disrupción en cadenas de suministro, inestabilidad política y pérdida de confianza en el dólar podría desencadenar un colapso económico en Estados Unidos, con efectos en todo el sistema financiero global. El aumento del déficit fiscal, la competencia con China, el declive del petrodólar y una posible recesión prolongada son factores que aceleran este escenario, debilitando la posición de EE.UU. como centro del comercio y actividad económica mundial. Como impacto, un colapso económico podría provocar la fuga masiva de capitales, la caída del mercado laboral, un incremento en la desigualdad y crisis sociales con protestas y descontento generalizado. En un contexto de creciente incertidumbre geopolítica, el declive económico estadounidense podría reconfigurar el orden global, fortaleciendo bloques alternativos como los BRICS y acelerando la desdolarización de la economía mundial."
         },
         {
-          "termino": "Crisis bancaria y financiera",
-          "descripcion": "Posibilidad de que el sistema bancario y financiero de un país o región experimente una disrupción significativa debido a problemas financieros, económicos o políticos. Esto puede llevar a una falta de confianza en el sistema bancario y financiero, y puede tener graves consecuencias económicas y sociales."
+          "termino": "Prolongada interrupción en la cadena de semiconductores ",
+          "descripcion": "La fabricación global de semiconductores, esenciales para industrias como la electrónica, la automoción y la inteligencia artificial, puede enfrentar una interrupción prolongada debido a una combinación de factores geopolíticos, desastres naturales y crisis en la cadena de suministro. Las tensiones entre EE.UU. y China, la concentración de la producción en Taiwán y Corea del Sur, la escasez de materiales clave como tierras raras, y el impacto de eventos climáticos extremos en plantas de producción están aumentando la vulnerabilidad del sector. Como impacto, esta crisis provocaría disrupciones en la fabricación de dispositivos electrónicos, ralentización del desarrollo tecnológico, alza de precios en productos clave y debilitamiento de sectores industriales estratégicos, afectando el crecimiento económico global. En un contexto de relocalización de la producción (nearshoring) y competencia por la autosuficiencia tecnológica, los gobiernos y empresas buscan descentralizar la manufactura de chips, pero los altos costos y el tiempo necesario para construir nuevas fábricas podrían prolongar la crisis durante años."
         },
         {
-          "termino": "Crisis fiscales en grandes economías",
-          "descripcion": "Niveles excesivos de deuda que generan crisis de deuda soberana y/o crisis de liquidez, lo cual limita la capacidad de los estados de proveer bienes públicos o promover el crecimiento"
+          "termino": "Prolongada recesión económica ",
+          "descripcion": "La economía global entra en una fase de recesión prolongada, marcada por un crecimiento anémico, desaceleración del comercio, caída del consumo y pérdida de confianza en los mercados. El endeudamiento excesivo de los gobiernos, la crisis energética, la desindustrialización en economías avanzadas y el impacto de conflictos geopolíticos están profundizando la contracción económica en diversas regiones. Como impacto, la recesión prolongada provocaría desempleo masivo, colapso de pequeñas y medianas empresas, presión sobre los sistemas de bienestar social y mayor desigualdad, mientras que los gobiernos se enfrentan a dificultades para aplicar políticas monetarias y fiscales efectivas. En un contexto de reconfiguración de la economía global y aceleración de la automatización, la recuperación dependerá de la adaptación a nuevos modelos productivos y la capacidad de resiliencia de los sectores estratégicos."
         },
         {
-          "termino": "Fuga de capitales extrema por perspectivas financieras negativas",
-          "descripcion": "Las expectativas (pesimistas u optimistas) de los participantes en los mercados con respecto al desempeño de la economía en su conjunto; un escenario pesimista deteriora el entorno necesario para el aumento de las inversiones."
+          "termino": "Escalada de la Muskonomía   ",
+          "descripcion": "El ecosistema empresarial de Elon Musk se consolida como un pilar clave en la economía global, con sus compañías liderando sectores estratégicos como la banda ancha satelital, los vehículos eléctricos, la exploración espacial y la inteligencia artificial. El respaldo de gobiernos a la transición energética, la necesidad de conectividad global, la descarbonización del transporte y el impulso a la industria espacial comercial están favoreciendo un entorno donde empresas como Tesla, SpaceX, Starlink y Neuralink adquieren un peso determinante en la economía del futuro. Como impacto, la 'muskonomía' podría acelerar la innovación tecnológica, transformar industrias enteras, generar nuevas oportunidades de empleo y alterar la geopolítica del desarrollo tecnológico, pero también plantea riesgos de concentración de poder en manos de una sola corporación, dependencia de sus infraestructuras, tensiones con reguladores globales, pero sobre todo la predominancia de tecnologías sin control ético, altamente riesgosas. En un contexto donde la disrupción tecnológica redefine la economía global, la influencia del ecosistema Musk podría marcar el rumbo de las próximas décadas, estableciendo un nuevo paradigma de desarrollo económico basado en la tecnología avanzada y la exploración espacial."
         },
         {
-          "termino": "Interrupción de las cadenas de suministro",
-          "descripcion": "Paralización continua y prolongada del conjunto de actividades, instalaciones y medios de distribución que son necesarios para desarrollar el proceso de comercialización de bienes en las economías del mundo."
+          "termino": "Guerra comercial sin cuartel y fin del libre comercio   ",
+          "descripcion": "El sistema de libre comercio global se desmorona a medida que las grandes potencias entran en una guerra comercial total, caracterizada por aranceles extremos, restricciones a la exportación de tecnologías estratégicas y el debilitamiento de organismos multilaterales. El desacoplamiento económico entre EE.UU. y China, la competencia por el dominio en semiconductores, la militarización del comercio energético y la crisis en las cadenas de suministro están acelerando esta fragmentación. Como impacto, el fin del libre comercio provocaría inflación descontrolada, desabastecimiento de productos esenciales, encarecimiento de tecnologías críticas y un resurgimiento del proteccionismo en todo el mundo, afectando especialmente a las economías emergentes. A largo plazo, la división del comercio global en bloques económicos rivales podría reconfigurar el orden mundial, fortalecer mercados regionales cerrados y obligar a los países a redefinir sus alianzas económicas en un contexto de creciente incertidumbre y competencia geopolítica."
         },
         {
-          "termino": "Paralización prolongada de la producción minera por conflictos socialess",
-          "descripcion": "Posibilidad de que la producción minera se detenga de forma permanente debido a conflictos sociales y ambientales. Esto puede suceder cuando las comunidades locales, los grupos ambientalistas y otros actores sociales se oponen a la explotación de recursos naturales por parte de las empresas mineras debido a preocupaciones por el impacto ambiental, la salud pública y los derechos de las comunidades locales"
-        },
-        {
-          "termino": "Escasez de mano de obra",
-          "descripcion": "Se refiere a la situación en la que la demanda de trabajadores en ciertas industrias o regiones supera la oferta disponible de empleados calificados y no calificados. Esto puede deberse a factores como cambios demográficos, falta de habilidades técnicas específicas en la fuerza laboral, condiciones de trabajo poco atractivas, o una rápida expansión económica que excede la capacidad de formación de trabajadores."
-        },
-        {
-          "termino": "Shock en los precios de los hidrocarburos",
-          "descripcion": "Posibilidad de una fluctuación significativa y abrupta en los precios de los hidrocarburos (petróleo, gas natural, entre otros). Este riesgo puede ser causado por diversos factores, como la variación en la oferta y la demanda de hidrocarburos, la volatilidad del mercado financiero, la inestabilidad política en las regiones productoras de hidrocarburos, entre otros."
-        },
-        {
-          "termino": "Prolongada recesión",
-          "descripcion": "Depresión de las actividades económicas en general, que tiende a ser prolongada en diversas economías del mundo, especialmente en aquellas más importantes (EE. UU., Europa, China, etc.), y cuyas repercusiones retroalimentan el fenómeno."
-        },
-        {
-          "termino": "Crisis energética",
-          "descripcion": "Refiere a una situación en la que la oferta de energía es insuficiente para satisfacer la demanda. Esta crisis puede ser resultado de factores como escasez de recursos energéticos, fallas en la infraestructura de suministro, conflictos geopolíticos que afectan la producción y el transporte de energía, o políticas inadecuadas."
-        },
-        {
-          "termino": "Proliferación de la actividad económica ilícita",
-          "descripcion": "Se refiere al aumento y expansión de actividades económicas que violan la ley, como el comercio de bienes y servicios prohibidos, la evasión fiscal, el lavado de dinero y la corrupción. Esta proliferación puede estar impulsada por la falta de regulación efectiva, la debilidad en la aplicación de la ley, y las altas ganancias potenciales de tales actividades."
-        }
-      ],
-      "oportunidades": [
-        {
-          "termino": "Optimización de inversiones mediante IA",
-          "descripcion": "Uso de la inteligencia artificial (IA) para analizar grandes cantidades de datos y obtener información valiosa que puede ayudar a los inversores a tomar decisiones informadas y optimizar su cartera de inversiones."
-        },
-        {
-          "termino": "Impulso financiero a inversiones verdes",
-          "descripcion": "Posibilidad de fomentar la inversión en proyectos y tecnologías que promuevan la sostenibilidad y la mitigación del cambio climático, como la energía renovable, la eficiencia energética, la movilidad sostenible, entre otros. De esta manera, se busca no solo reducir las emisiones de gases de efecto invernadero, sino también crear empleo y contribuir al desarrollo sostenible del país."
-        },
-        {
-          "termino": "Mayor demanda por minerales alternativos",
-          "descripcion": "Extracción de minerales menos comunes, pero de alto valor, como el litio, uranio, cobalto y níquel, para atender la demanda futura previsible de productos basados en nuevos materiales y tecnologías."
-        },
-        {
-          "termino": "Proliferación de inversiones (y desarrollo) en sector minería e hidrocarburos",
-          "descripcion": "Potencial de crecimiento económico y desarrollo social que puede generar la inversión en la explotación de recursos minerales e hidrocarburos en una región o localidad determinada. Esta inversión puede atraer empleos y mejorar la infraestructura y los servicios públicos, lo que a su vez puede generar un impacto positivo en la calidad de vida de las comunidades locales."
-        },
-        {
-          "termino": "Blockchain para la trazabilidad de los productos regionales",
-          "descripcion": "Uso de la tecnología blockchain para garantizar la transparencia en la cadena de suministro de productos regionales, desde su origen hasta su destino final. El blockchain es una tecnología que permite la creación de registros digitales seguros y descentralizados, lo que significa que cualquier información registrada en él es inmutable y no puede ser alterada."
-        },
-        {
-          "termino": "Unificación de mercados financieros",
-          "descripcion": "Convergencia y armonización de los mercados financieros de diferentes regiones o países en un mercado más grande. La oportunidad se basa en la idea de que la creación de un mercado financiero unificado puede mejorar la eficiencia y la transparencia en la asignación de"
-        },
-        {
-          "termino": "Universalización de la economía digital",
-          "descripcion": "Impacto de la tecnología digital en la economía, esto es, la digitalización de los modelos de producción y consumo, cambiando así las formas de comercializar bienes y servicios."
-        },
-        {
-          "termino": "Nuevas rutas (internacionales) para el transporte de mercancías",
-          "descripcion": "Se refiere a la creación o utilización de itinerarios alternativos o adicionales para el movimiento transfronterizo de bienes, que pueden surgir debido a cambios geopolíticos, económicos o tecnológicos. Estas rutas pueden incluir nuevas conexiones marítimas, terrestres o aéreas y están diseñadas para optimizar la eficiencia logística, reducir costos y tiempos de envío, y responder a las demandas cambiantes del mercado global."
-        },
-        {
-          "termino": "Gran impulso del Turismo verde o Ecoturismo",
-          "descripcion": "Se refiere a la expansión significativa y estratégica del turismo que se enfoca en la sostenibilidad ambiental y la conservación de la naturaleza. Este tipo de turismo promueve prácticas que minimizan el impacto negativo en el medio ambiente y las comunidades locales, al tiempo que fomenta la educación ambiental de los visitantes."
-        },
-        {
-          "termino": "Desarrollo de Parques Industriales Tecnoecológicos",
-          "descripcion": "Se refiere a la creación y expansión de zonas industriales diseñadas para albergar empresas y organizaciones centradas en tecnologías avanzadas y sostenibilidad ambiental. Estos parques combinan infraestructuras de alta tecnología con prácticas ecológicamente responsables, como el uso eficiente de energías renovables, gestión de residuos avanzada y sistemas de construcción sostenible. Su objetivo es fomentar la innovación y el desarrollo económico mientras minimizan el impacto ambiental."
-        },
-        {
-          "termino": "Desarrollo de redes internacionales de producción",
-          "descripcion": "Se refiere al establecimiento y expansión de sistemas de producción que involucran a múltiples países, facilitados por la globalización y la integración económica. Estas redes permiten a las empresas descomponer sus procesos de producción en distintas etapas y ubicar cada una en diferentes países, según donde se maximicen las ventajas como costos laborales más bajos, acceso a materias primas, tecnologías especializadas, o incentivos fiscales."
-        },
-        {
-          "termino": "Integración económica a nivel de clústeres regionales",
-          "descripcion": "Refiere al proceso mediante el cual empresas y organizaciones en una región geográfica específica colaboran y coordinan actividades para mejorar su competitividad y eficiencia. Estos clústeres se forman en torno a industrias o sectores específicos, como la tecnología, la manufactura o la agricultura, y pueden incluir empresas, proveedores, instituciones de investigación y entidades gubernamentales."
+          "termino": "Predominio de vehículos eléctricos",
+          "descripcion": "En Nysa, al suroeste de Polonia, una moderna planta industrial se ha convertido en un eslabón clave para la producción de vehículos eléctricos (EVs). En lugar de fabricar automóviles, esta instalación es la primera en Europa en producir a gran escala materiales esenciales para las baterías, que tradicionalmente son costosos, difíciles de obtener y mayormente procesados en China. Este avance marca un paso importante en la independencia de la cadena de suministro europea y en la expansión del mercado de los EVs."
         }
       ]
     },
     "Política": {
       "color": "#9C27B0",
-      "riesgos": [
+      "terminos": [
         {
-          "termino": "Proliferación de confrontaciones geopolíticas",
-          "descripcion": "Intervenciones militares bilaterales o multilaterales entre estados con consecuencias globales y/o conflictos entre estados utilizando instrumentos económicos (como controles comerciales, barreras no arancelarias y/o medidas monetarias) para consolidar su influencia."
+          "termino": "Escalada de una guerra nuclear",
+          "descripcion": "La intensificación de conflictos geopolíticos y la escalada de tensiones entre potencias con armamento nuclear desencadenan un enfrentamiento con el uso de armas atómicas. La disuasión nuclear, que durante décadas evitó confrontaciones directas, colapsa debido a crisis estratégicas, errores de cálculo o agresiones preventivas. Un primer ataque, ya sea táctico o estratégico, provoca represalias en cadena, resultando en una guerra nuclear regional o global con consecuencias catastróficas."
         },
         {
-          "termino": "Fracaso de la gobernanza nacional",
-          "descripcion": "Incapacidad para gobernar una nación como resultado de un débil Estado de derecho, corrupción o entrampamiento político."
+          "termino": "Guerra civil por convulsión social  ",
+          "descripcion": "El aumento de la desigualdad económica, la polarización política, el colapso de instituciones democráticas, la influencia de intereses extranjeros o de economías ilegales, y la crisis de confianza en los gobiernos pueden desencadenar una guerra civil en diversas regiones del mundo, alimentada por conflictos internos no resueltos. El deterioro del tejido social, el auge de movimientos extremistas, la radicalización digital y el descontento ante crisis económicas o ambientales están acelerando el riesgo de estallidos violentos. Como impacto, una guerra civil derivada de la convulsión social provocaría el colapso de gobiernos, desplazamientos masivos de población, crisis humanitarias y la fragmentación territorial de los Estados, favoreciendo el ascenso de actores no estatales y economías criminales. En un contexto donde la gobernabilidad global se enfrenta a desafíos sin precedentes, la falta de respuestas efectivas ante la desigualdad, el malestar social, el crimen organizado transnacional y las rivalidades geopolíticas podrían conducir a una era de inestabilidad prolongada, marcada por la militarización de los conflictos internos."
         },
         {
-          "termino": "Geopolitización de recursos estratégicos",
-          "descripcion": "Concentración, explotación y/o restricción de la movilidad por parte de un estado, de bienes, conocimientos, servicios o tecnología críticos para el desarrollo humano con la intención de obtener una ventaja geopolítica"
+          "termino": "Ataques a satélites ",
+          "descripcion": "El uso creciente del espacio para comunicaciones, navegación, defensa y economía digital ha convertido a los satélites en un objetivo estratégico en conflictos geopolíticos y ciberataques. Las tensiones entre potencias espaciales, la militarización del espacio, el desarrollo de armas antisatélite (ASAT) y el auge de la guerra cibernética están aumentando la probabilidad de un ataque contra infraestructuras satelitales críticas. Como impacto, la destrucción o inhabilitación de satélites podría interrumpir sistemas de GPS, telecomunicaciones, monitoreo meteorológico y operaciones militares, afectando tanto la seguridad nacional como la economía global. Además, la proliferación de escombros espaciales tras un ataque masivo podría complicar futuras misiones espaciales y generar un colapso en las órbitas terrestres, limitando no solo la expansión tecnológica en el espacio, sino la operatividad de los servicios actuales. En un contexto de competencia espacial acelerada, un ataque a satélites podría desencadenar una crisis global, lo que hace necesarias nuevas normativas y alianzas para la seguridad espacial."
         },
         {
-          "termino": "Escalamiento de confrontaciones bélicas",
-          "descripcion": "rición de un conflicto armado, un enfrentamiento bélico o una guerra en la que dos o más naciones y/o grupos armados combaten."
+          "termino": "Extinción de la Unión Europea ",
+          "descripcion": "Las crecientes tensiones políticas, crisis económicas y el auge del nacionalismo en varios países miembros podrían conducir a la disolución de la Unión Europea (UE), poniendo fin a décadas de integración. El aumento del euroescepticismo, las disputas sobre políticas migratorias, las desigualdades económicas entre países del bloque, las crisis de deuda de los países del sur de Europa, la influencia de rivales geopolíticos del bloque y el debilitamiento de instituciones clave así como de la alianza transatlántica están erosionando la cohesión de la UE. Como impacto, su desaparición provocaría el colapso del euro, el resurgimiento de fronteras nacionales, la reconfiguración de las alianzas comerciales y el debilitamiento geopolítico de Europa frente a potencias como EE.UU., China y Rusia. Además, la fragmentación de la UE podría reactivar conflictos históricos, afectar la seguridad regional y acelerar la competencia entre los Estados europeos, revirtiendo décadas de estabilidad y cooperación. En un contexto de desafíos globales crecientes, el fracaso de la UE podría redefinir la geopolítica del siglo XXI, marcando el fin de una era de integración regional."
         },
         {
-          "termino": "Uso de armas de destrucción masiva",
-          "descripcion": "Despliegue de tecnologías y materiales nucleares, químicos, biológicos y radiactivos generando crisis internacionales y potencial destrucción significativa."
+          "termino": "Guerra total en Oriente Medio ",
+          "descripcion": "Las crecientes tensiones geopolíticas, disputas territoriales, conflictos religiosos y rivalidades entre potencias regionales podrían desencadenar una guerra de gran escala en Oriente Medio, con repercusiones globales. El enfrentamiento entre Irán e Israel, la inestabilidad en Siria y Yemen, la militarización del Golfo Pérsico y el involucramiento de actores externos como EE.UU., China y Rusia están aumentando el riesgo de una escalada militar sin precedentes. Como impacto, un conflicto prolongado en la región podría desestabilizar el suministro global de petróleo y gas, provocar desplazamientos masivos de refugiados y desencadenar crisis humanitarias y de seguridad en múltiples países. En un contexto de polarización global y militarización de las alianzas estratégicas, una guerra en Oriente Medio podría redefinir el equilibrio de poder en la región y generar nuevas dinámicas en la geopolítica mundial."
         },
         {
-          "termino": "Crisis del sistema democrático",
-          "descripcion": "Se refiere a una situación en la que las instituciones y procesos democráticos enfrentan desafíos significativos que amenazan su funcionamiento y legitimidad. Esto puede incluir la erosión de las normas democráticas, corrupción política, polarización extrema, desconfianza en las instituciones, interferencia externa en elecciones, y la restricción de libertades civiles."
+          "termino": "Captura criminal del Estado y pérdida del control territorial en el Perú",
+          "descripcion": "El crimen organizado domina las instituciones políticas, judiciales y de seguridad en el Perú, consolidando un control territorial paralelo en regiones estratégicas. La expansión de economías ilícitas como el narcotráfico, la minería ilegal, la tala clandestina, las extorsiones, la trata de personas y el contrabando, sumada a la corrupción sistémica, la debilidad institucional y la impunidad en altos niveles de gobierno, están acelerando la captura del Estado por redes criminales. Como impacto, el país enfrenta una erosión del estado de derecho, debilitamiento de la seguridad ciudadana, incremento del sicariato y desplazamiento de comunidades vulnerables, mientras que en zonas bajo dominio criminal las autoridades legítimas pierden poder de gobernanza y son reemplazadas por estructuras delictivas que imponen su propia ley. En un contexto de crisis política prolongada y fragmentación del poder, la consolidación de un Estado capturado podría sumir al Perú en un escenario de violencia crónica, corrupción institucionalizada y colapso de la confianza ciudadana en la democracia."
         },
         {
-          "termino": "Fracaso de la descentralización",
-          "descripcion": "Fracaso de la reforma de descentralización del país, que tiene como objetivo distribuir funciones entre la administración central y los territorios o las entidades que cumplen labores especializadas dentro de los mismos."
+          "termino": "Fragilidad del Estado de derecho en el Perú ",
+          "descripcion": "El Estado de derecho en el Perú se debilita progresivamente debido a la corrupción estructural, la inestabilidad política y la captura de instituciones clave por intereses privados y criminales. El deterioro del sistema judicial, la falta de independencia en organismos de control, el colapso de partidos políticos y la impunidad en casos de corrupción están acelerando la erosión de la gobernabilidad. Como impacto, la fragilidad del Estado de derecho afecta la confianza ciudadana, obstaculiza el desarrollo económico, agrava la inseguridad y fomenta la informalidad y la ilegalidad en diversas actividades, debilitando aún más la capacidad del gobierno para hacer cumplir la ley. En un contexto de crisis de representación y creciente descontento social, el debilitamiento del Estado de derecho podría sumir al Perú en una espiral de ingobernabilidad, favoreciendo la expansión del crimen organizado y la consolidación de un poder político basado en redes clientelistas y mafiosas."
         },
         {
-          "termino": "Fortalecimiento de economía ilegales",
-          "descripcion": "Crecimiento de actividades económicas fuera de la legalidad que socavan la estabilidad y seguridad económica y política del país."
+          "termino": "Guerra entre China y Taiwán ",
+          "descripcion": "El conflicto latente entre China y Taiwán escala a una guerra abierta, con intervención militar directa y posibles enfrentamientos regionales. El aumento de la presión militar china en el estrecho de Taiwán, el respaldo estratégico de EE.UU. a la isla, la intensificación del nacionalismo en Beijing y la creciente militarización del Indo-Pacífico están acelerando el riesgo de un enfrentamiento. Como impacto, una guerra en Taiwán podría desencadenar una crisis global en la cadena de suministro de semiconductores, provocar sanciones económicas de gran escala, generar desplazamientos masivos de población y aumentar la posibilidad de una intervención multinacional, involucrando a potencias como EE.UU., Japón y Australia. En un contexto de reconfiguración del equilibrio de poder en Asia, un conflicto armado entre China y Taiwán podría definir el futuro del orden internacional, alterando alianzas geopolíticas y generando, como mínimo una escalada en la Guerra Fría entre Occidente y China, cuando no una conflagración mundial sin precedentes."
         },
         {
-          "termino": "Transnacionalización de las organizaciones delictivas",
-          "descripcion": "Expansión de redes criminales más allá de las fronteras nacionales, complicando su persecución y control."
+          "termino": "Desinstitucionalidad del poder político y económico ",
+          "descripcion": "La pérdida de legitimidad y funcionalidad de las instituciones políticas y económicas está debilitando los sistemas de gobernanza, dando paso a estructuras informales de poder, decisiones arbitrarias y un entorno de alta incertidumbre. El avance del populismo, la corrupción sistémica, la fragmentación del liderazgo, la captura del Estado por intereses privados y el declive de organismos reguladores están acelerando este proceso en diversas regiones del mundo. Como impacto, la desinstitucionalización erosiona la confianza en la democracia, incrementa la inestabilidad económica, fomenta la inseguridad jurídica y debilita el estado de derecho, favoreciendo la expansión de redes clientelistas, mercados ilícitos y corrupción en la toma de decisiones. En un contexto de crisis de representación y polarización extrema, la degradación institucional podría dar paso a regímenes más autoritarios, colapsos económicos prolongados y una gobernanza global cada vez más fragmentada y volátil."
         },
         {
-          "termino": "Profundización de la desinstitucionalización y desbalance de los poderes del Estado",
-          "descripcion": "Deterioro continuo de la estructura institucional y falta de equilibrio entre los poderes gubernamentales, debilitando la democracia y la gobernanza efectiva."
+          "termino": "Disolución de la OTAN ",
+          "descripcion": "La Organización del Tratado del Atlántico Norte (OTAN) se desintegra como consecuencia de fracturas internas, cambios en la geopolítica global y la pérdida de consenso entre sus miembros. El debilitamiento del compromiso de EE.UU. con la alianza, el auge de políticas exteriores más nacionalistas en Europa, la presión económica para reducir el gasto militar y la divergencia en posturas sobre conflictos internacionales están acelerando la erosión de la cohesión dentro del bloque. Como impacto, la disolución de la OTAN desestabilizaría el equilibrio de poder en Europa, dejaría a los países miembros vulnerables ante amenazas externas, impulsaría a potencias como Rusia y China a expandir su influencia y podría desencadenar una nueva carrera armamentista en el continente. En un contexto de reconfiguración del orden internacional, la desaparición de la OTAN podría provocar la fragmentación de Occidente, su debilidad ante bloques o países de corte autoritario, y una transformación en la arquitectura de seguridad global, dando paso a alianzas militares más regionalizadas o a un mayor enfoque en la autonomía estratégica de Europa, a mediano plazo, pero una preocupante debilidad en el corto."
         },
         {
-          "termino": "Surgimiento de poderes demagógicos y populistas",
-          "descripcion": "Aparición de líderes que utilizan la retórica populista para manipular la opinión pública, menoscabando las normas democráticas y el estado de derecho."
+          "termino": "Guerra entre las Coreas ",
+          "descripcion": "El frágil equilibrio en la península de Corea colapsa y el conflicto entre Corea del Norte y Corea del Sur se reanuda con enfrentamientos militares a gran escala. El colapso del armisticio de 1953, el aumento de provocaciones militares, la escalada en pruebas de misiles balísticos y la intervención de potencias como EE.UU. y China están incrementando el riesgo de una guerra abierta. Como impacto, la reanudación del conflicto podría desatar una crisis humanitaria en la región, generar una disrupción en la economía global debido a la destrucción de la industria surcoreana y elevar el riesgo de uso de armas nucleares por parte de Corea del Norte, desencadenando una respuesta militar internacional. En un contexto de tensiones geopolíticas crecientes en el Indo-Pacífico, el reinicio de la guerra en Corea podría alterar el equilibrio de poder en Asia, obligando a actores globales a redefinir alianzas y estrategias de seguridad en la región."
+        },
+        {
+          "termino": "Fin de la democracia y retorno al autoritarismo  ",
+          "descripcion": "El avance del autoritarismo y la erosión de principios democráticos marcan una regresión global hacia regímenes más centralizados y restrictivos. El auge del populismo, la desconfianza en las instituciones, la manipulación de información a través de redes sociales con el uso de inteligencia artificial, y el debilitamiento del Estado de derecho están acelerando el retroceso de la democracia en varias regiones del mundo. Como impacto, el declive democrático limita las libertades civiles, debilita la transparencia gubernamental, facilita la consolidación de líderes con poder absoluto y genera un aumento en la represión política, dificultando la participación ciudadana y el equilibrio de poderes. En un contexto de crisis económica, conflictos geopolíticos y polarización extrema, el retorno al autoritarismo podría redibujar el mapa político global, afectando alianzas internacionales, restringiendo derechos humanos y modificando la gobernanza en múltiples países."
+        },
+        {
+          "termino": "Tercera guerra mundial ",
+          "descripcion": "Las crecientes tensiones geopolíticas, la competencia por recursos estratégicos y el auge de conflictos regionales escalan hacia una guerra global con la participación de múltiples potencias militares. El deterioro de las relaciones entre Occidente y bloques emergentes como China y Rusia, la proliferación de armamento avanzado, la militarización del espacio y la guerra híbrida a través de ciberataques y desinformación están aumentando el riesgo de una confrontación mundial. Como impacto, una Tercera Guerra Mundial podría devastar economías, colapsar sistemas financieros, generar desplazamientos masivos de población y alterar el equilibrio de poder global, con la posibilidad de uso de armas nucleares, biológicas o autónomas, lo que llevaría a una destrucción sin precedentes y potencialmente a la extinción de la civilización. En un contexto de multipolaridad e inestabilidad internacional, un conflicto de esta magnitud redefiniría las alianzas globales y el futuro de la humanidad, obligando a replantear el orden internacional en un escenario postbélico, de existir alguna posibilidad de supervivencia humana."
+        },
+        {
+          "termino": "Desarrollo de políticas e instituciones inclusivas ",
+          "descripcion": "El impulso hacia políticas e instituciones más inclusivas busca garantizar los derechos de todos los grupos sociales, promoviendo la justicia social y la reducción de desigualdades. El crecimiento de movimientos ciudadanos, la presión internacional por mayor equidad, la digitalización del acceso a servicios públicos y la evolución de marcos legales más representativos están acelerando esta transformación. Como impacto, el desarrollo de instituciones inclusivas fortalece la gobernabilidad, reduce brechas socioeconómicas, mejora la confianza en la democracia y fomenta economías más resilientes, pero también enfrenta desafíos en su implementación. En un contexto de polarización y crisis de legitimidad institucional, la capacidad de los gobiernos para consolidar políticas inclusivas, sin discriminación y en consistencia con la ley natural, definirá el futuro de la cohesión social y la estabilidad política en el siglo XXI."
+        },
+        {
+          "termino": "Ciberataque a gran escala  ",
+          "descripcion": "Un ciberataque de escala sin precedentes paralizaría infraestructuras críticas, gobiernos y corporaciones en todo el mundo, generando colapso económico, caos en servicios esenciales y una crisis global de seguridad. El crecimiento de la ciberguerra, la sofisticación de las amenazas impulsadas por inteligencia artificial, la interconexión masiva a través del IoT y la vulnerabilidad de sistemas financieros, energéticos, de servicios, de transportes y hasta militares están aumentando la posibilidad de un ataque coordinado devastador. Como impacto, este ciberataque podría deshabilitar redes eléctricas, sistemas de salud, satélites de comunicación y transacciones bancarias, afectando la estabilidad de países enteros y provocando pérdidas económicas incalculables, además de facilitar el robo de datos estratégicos y manipulación de información a escala global. En un contexto donde la ciberseguridad sigue siendo un punto débil en la infraestructura digital, este evento podría acelerar la adopción de defensas avanzadas, regulaciones más estrictas y una nueva carrera tecnológica por el control del ciberespacio."
+        },
+        {
+          "termino": "Ascenso del caos geopolítico global",
+          "descripcion": "El retiro de EE.UU. de su tradicional papel de garante del orden global y su adopción de una postura más transaccional e introspectiva generan un vacío de poder que es aprovechado por China, Rusia y otros países para expandir su influencia y adoptar medidas más agresivas en el escenario internacional. El debilitamiento de alianzas tradicionales, la crisis de legitimidad de organismos multilaterales, la reconfiguración de bloques geopolíticos y el auge de la multipolaridad están acelerando esta transición. Como impacto, este desorden global podría provocar más conflictos regionales, desestabilizar economías emergentes, aumentar el riesgo de guerras híbridas y consolidar regímenes autoritarios que desafían el orden internacional, mientras países antes alineados con EE.UU. buscan nuevas estrategias para asegurar su seguridad y crecimiento económico. En un contexto de creciente fragmentación y competencia entre potencias, este cambio de paradigma podría redibujar las dinámicas de poder, acelerando el declive del dominio occidental y fortaleciendo una nueva arquitectura geopolítica dominada por actores emergentes."
+        },
+        {
+          "termino": "Adopción de la democracia líquida",
+          "descripcion": "La democracia líquida surge como un sistema de gobernanza que combina democracia representativa y directa, permitiendo a los ciudadanos votar directamente sobre decisiones políticas o delegar su voto a representantes de confianza de manera flexible y revocable. El avance de las plataformas digitales, el uso de blockchain para asegurar transparencia, la creciente desconfianza en los sistemas tradicionales y la demanda de mayor participación ciudadana están impulsando esta transformación. Como impacto, la democracia líquida podría descentralizar el poder, mejorar la representatividad y hacer los gobiernos más dinámicos y adaptables, pero también enfrenta riesgos de manipulación digital, desigualdad en el acceso a la tecnología y dilemas sobre la viabilidad de un sistema altamente flexible en decisiones complejas. En un contexto de polarización política y crisis de legitimidad institucional, la democracia líquida podría redefinir la forma en que los ciudadanos ejercen el poder, equilibrando autonomía individual con eficiencia colectiva."
+        },
+        {
+          "termino": "Gigantes tecnológicos y la erosión de la soberanía global  ",
+          "descripcion": "El control estratégico de recursos críticos, como los microchips de alta gama por parte de NVIDIA, y el dominio de plataformas digitales por empresas como Microsoft, Google, Amazon, Meta, Apple, Baidu, Tencent, Alibaba y Huawei están redefiniendo el equilibrio de poder global. Estas corporaciones no solo influyen en la innovación tecnológica, sino que también condicionan políticas nacionales, controlan flujos de datos y evaden regulaciones, erosionando la soberanía de los Estados. En un contexto de creciente dependencia de la inteligencia artificial, la computación en la nube y los recursos tecnológicos estratégicos, la concentración de poder en estas empresas plantea riesgos para la autonomía de los países, la equidad en el acceso a la tecnología y la estabilidad geopolítica. La falta de marcos regulatorios globales efectivos agrava este desafío, destacando la necesidad de cooperación internacional para equilibrar el poder corporativo con los intereses públicos y la seguridad nacional."
+        },
+        {
+          "termino": "Política del más fuerte vuelve a imperar en el mundo",
+          "descripcion": "El mundo entra en una nueva era de realpolitik, donde la diplomacia y el multilateralismo pierden relevancia frente a la imposición del poder militar, económico y tecnológico por parte de las grandes potencias. El debilitamiento de instituciones internacionales, el auge del nacionalismo, la militarización de conflictos geopolíticos y la competencia feroz por recursos estratégicos están acelerando esta transformación. Como impacto, el regreso de la política del más fuerte provoca un aumento de intervenciones unilaterales, guerras económicas sin restricciones, carreras armamentistas y la consolidación de regímenes autoritarios, dejando a los países más pequeños en una posición vulnerable. En un contexto de creciente polarización entre bloques rivales, la cooperación internacional se reduce al mínimo, dando paso a un mundo donde las alianzas estratégicas se redefinen en función de la fuerza y no del derecho internacional."
+        },
+        {
+          "termino": "Individuo solitario crea un arma de destrucción masiva (biología sintética) ",
+          "descripcion": "El acceso democratizado a herramientas de biología sintética, como CRISPR, y la disponibilidad de información en línea están facilitando que individuos con conocimientos técnicos puedan diseñar y producir armas biológicas en laboratorios improvisados. Un acto de este tipo podría desencadenar una pandemia deliberada, con consecuencias catastróficas para la salud pública, la economía y la seguridad global. En un contexto de creciente preocupación por el bioterrorismo y la falta de regulación efectiva sobre materiales y equipos de biología sintética, este escenario representa una amenaza real y desafiante para la estabilidad mundial."
+        },
+        {
+          "termino": "Fin de la supremacía militar estadounidense",
+          "descripcion": "El dominio militar de Estados Unidos enfrenta nuevos desafíos en un campo de batalla transformado por la tecnología. En Ucrania, satélites, drones y la inteligencia artificial han reducido la incertidumbre de la guerra, permitiendo detectar y atacar objetivos con una precisión sin precedentes. Este cambio limita la efectividad de tácticas tradicionales y evidencia que la supremacía estadounidense, basada en su poderío convencional, ya no es tan absoluta en un entorno donde la tecnología redefine la estrategia militar, con lo cual se abren lúgubres escenarios de carreras armamentísticas y posibles confrontaciones."
         }
-      ],
-      "oportunidades": [
+      ]
+    },
+    "Social": {
+      "color": "#FF5722",
+      "terminos": [
         {
-          "termino": "Desarrollo de programas de intercambio de talentos",
-          "descripcion": "Refiere a la creación y operación de iniciativas que permiten el movimiento temporal de empleados entre diferentes organizaciones, sectores o países para fomentar la transferencia de conocimientos, habilidades y experiencias. Estos programas están diseñados para enriquecer el desarrollo profesional de los participantes y potenciar la innovación y colaboración entre entidades."
+          "termino": "Transformación del sistema de salud hacia hospitales virtuales",
+          "descripcion": "Los avances en telemedicina, inteligencia artificial y dispositivos médicos conectados están impulsando la transición de los hospitales tradicionales a modelos virtuales de atención sanitaria. El envejecimiento poblacional, la crisis de infraestructura hospitalaria, la digitalización de la salud y la necesidad de reducir costos han acelerado esta transformación, permitiendo que diagnósticos, monitoreo de enfermedades crónicas y consultas sean gestionados de forma remota. Como impacto, los hospitales virtuales descentralizan la atención médica, mejoran el acceso a servicios de salud en zonas remotas y optimizan el uso de recursos médicos, reduciendo la carga sobre hospitales físicos. Sin embargo, también plantean desafíos como la deshumanización en el trato y atención a pacientes, brechas en el acceso a tecnología, riesgos en la protección de datos y la redefinición del rol del personal sanitario. En un contexto de digitalización acelerada, los hospitales virtuales podrían convertirse en la norma, con IA gestionando la salud preventiva y la asistencia médica basada en datos en tiempo real; sin embargo, es de gran preocupación la posibilidad de dejar un tema tan importante como la salud bajo el control de las máquinas."
         },
         {
-          "termino": "Digitalización de gestión y estandarización de datos públicos para la toma de decisiones",
-          "descripcion": "Se refiere al proceso de convertir información y procesos de gestión pública en formatos digitales y estandarizar los datos recogidos por diferentes entidades gubernamentales para asegurar su interoperabilidad y accesibilidad."
+          "termino": "Amenaza de bioterrorismo con patógenos modificados",
+          "descripcion": "El bioterrorismo es el uso deliberado de agentes biológicos como virus, bacterias o toxinas con el propósito de causar daño masivo a la población, colapsar sistemas de salud y generar inestabilidad social y económica. Los avances en biotecnología, la accesibilidad a herramientas de edición genética como CRISPR, el auge del terrorismo no convencional y la proliferación de laboratorios clandestinos han incrementado el riesgo de ataques biológicos sofisticados. Como impacto, un ataque bioterrorista podría superar la capacidad de respuesta de los sistemas sanitarios, alterar el comercio internacional y provocar crisis humanitarias prolongadas, además de generar pánico global y restricciones masivas a la movilidad. En un contexto de creciente tensión geopolítica y conflictos asimétricos, los gobiernos enfrentan el desafío de fortalecer la bioseguridad, mejorar la vigilancia epidemiológica y regular el acceso a tecnologías de manipulación biológica para prevenir el uso de patógenos con fines destructivos."
         },
         {
-          "termino": "Desarrollo de sistemas de defensa digital resilientes usando blockchain, IA e IoT.",
-          "descripcion": "Refiere a la creación de infraestructuras de seguridad cibernética avanzadas que integran tecnologías de blockchain, inteligencia artificial (IA) e Internet de las Cosas (IoT) para proteger datos y sistemas contra ataques y vulnerabilidades."
+          "termino": "Incremento de conflictos que generarán más polarización social ",
+          "descripcion": "El aumento de conflictos en distintas dimensiones –políticos, ideológicos, económicos y culturales– está profundizando la polarización social y fragmentando sociedades en bloques irreconciliables. La expansión de la desinformación, la radicalización en redes sociales, el auge de movimientos extremistas y la crisis de confianza en las instituciones están acelerando la división entre grupos con visiones opuestas del mundo. Como impacto, esta polarización extrema debilita la gobernabilidad, genera conflictos violentos, reduce la capacidad de diálogo y obstaculiza la implementación de políticas públicas efectivas, afectando la estabilidad social y económica. En un contexto de crisis global y transformaciones aceleradas, el incremento de estos conflictos podría provocar estallidos sociales recurrentes, la erosión de la democracia y un clima de confrontación permanente que dificulta la cohesión y el progreso de las sociedades."
         },
         {
-          "termino": "Implementación de la IA para acelerar los procesos de gestión pública",
-          "descripcion": "Refiere al uso de tecnologías de inteligencia artificial para mejorar y agilizar las operaciones y servicios ofrecidos por entidades gubernamentales. Esta implementación puede incluir la automatización de tareas rutinarias, el análisis de grandes volúmenes de datos para la toma de decisiones, y la personalización de servicios para ciudadanos."
+          "termino": "Revelación de secretos ancestrales mediante tecnologías avanzadas  ",
+          "descripcion": "Los avances en inteligencia artificial, escaneo de alta resolución y técnicas de reconstrucción digital permitirán leer pergaminos antiguos carbonizados y otros documentos históricos dañados, revelando información perdida durante siglos. El desarrollo de algoritmos capaces de interpretar textos sin desenrollarlos, la combinación de tomografía computarizada con modelos de aprendizaje profundo y la mejora en la detección de trazas de tinta invisible están acelerando este descubrimiento. Como impacto, esta tecnología podría revelar información inédita sobre civilizaciones antiguas, posibilitar nuevas interpretaciones de la historia, aportar información clave sobre textos de diversa índole y replantear el entendimiento del pasado, pero también abrir debates sobre quién debe tener acceso a esta información y cómo debe ser utilizada. En un contexto de digitalización masiva del patrimonio histórico, la posibilidad de descifrar textos inaccesibles podría transformar la investigación arqueológica y literaria, proporcionando una conexión más profunda con las raíces de la humanidad."
         },
         {
-          "termino": "Desarrollo de plataformas y herramientas Civictech",
-          "descripcion": "Refiere a la creación y mejora de tecnologías orientadas a empoderar a los ciudadanos en la participación cívica y mejorar la transparencia, eficiencia y rendición de cuentas en la gestión pública. Las plataformas y herramientas Civictech incluyen aplicaciones móviles, sitios web y otros recursos digitales que facilitan la interacción entre ciudadanos y gobiernos, promueven la participación en procesos políticos, y permiten la colaboración en la solución de problemas comunitarios."
+          "termino": "Propagación de bots como influencers ocultos",
+          "descripcion": "El aumento de bots avanzados impulsados por inteligencia artificial está distorsionando el tráfico en internet, influyendo en opinión pública, elecciones, mercados financieros y discursos políticos sin que los usuarios lo perciban. El desarrollo de IA generativa, la facilidad para crear identidades digitales falsas, la automatización en redes sociales y la falta de regulaciones efectivas están acelerando la proliferación de bots con agendas ocultas. Como impacto, su presencia masiva altera debates políticos, amplifica teorías de conspiración, facilita fraudes financieros y debilita la confianza en la información en línea, forzando a gobiernos y plataformas tecnológicas a desarrollar medidas de detección más avanzadas, regulación del uso de IA en comunicación digital y algoritmos que prioricen contenido auténtico. En un contexto donde la manipulación de información es una herramienta geopolítica y económica, la lucha contra los bots podría definir el futuro de la democracia digital, el acceso a la verdad y la seguridad cibernética global."
         },
         {
-          "termino": "Adhesión a alianzas internacionales para la mejora de políticas y gobernanza ",
-          "descripcion": "Integración en redes y organizaciones globales que facilitan el intercambio de conocimientos y buenas prácticas para fortalecer la gobernanza y la implementación de políticas públicas eficaces y basadas en evidencia."
+          "termino": "Extinción de idiomas originarios ",
+          "descripcion": "El acelerado declive de las lenguas originarias está llevando a la pérdida irreparable de conocimientos, culturas y cosmovisiones ancestrales. La globalización, la expansión de idiomas dominantes, la migración forzada, la falta de políticas de preservación y el desinterés de nuevas generaciones están acelerando la desaparición de cientos de idiomas indígenas en todo el mundo. Como impacto, la extinción de estas lenguas erosiona la identidad cultural de los pueblos originarios, debilita la transmisión de conocimientos tradicionales sobre biodiversidad y medicina natural, y reduce la diversidad lingüística como patrimonio inmaterial de la humanidad, además de profundizar la exclusión social de comunidades indígenas. En un contexto de avances tecnológicos y predominio de lenguas globales en la educación y los medios, la lucha por preservar los idiomas originarios podría depender del uso de inteligencia artificial, la digitalización de conocimientos ancestrales y políticas lingüísticas más inclusivas para evitar la homogenización cultural."
+        },
+        {
+          "termino": "Normalización de la educación inmersiva",
+          "descripcion": "La educación inmersiva está revolucionando la enseñanza mediante el uso de realidad virtual (VR), realidad aumentada (AR) e inteligencia artificial, permitiendo a los estudiantes aprender de manera interactiva en entornos simulados. Los avances en dispositivos de realidad extendida, el acceso a plataformas educativas digitales, el desarrollo de entornos de aprendizaje gamificados y la personalización de la enseñanza con IA están impulsando su adopción. Como impacto, la educación inmersiva puede mejorar la retención de conocimientos, hacer accesible el aprendizaje en cualquier parte del mundo y permitir simulaciones prácticas en disciplinas como la medicina, la ingeniería y la historia, pero también enfrenta desafíos en costos de implementación, acceso equitativo a la tecnología y la dependencia de grandes corporaciones tecnológicas en la educación. En un contexto donde la digitalización avanza en todos los sectores, la educación inmersiva podría convertirse en el estándar de aprendizaje del futuro, transformando la enseñanza tradicional en una experiencia multisensorial e interactiva."
+        },
+        {
+          "termino": "Control de contenidos e influencia con IA por agentes no autorizados  ",
+          "descripcion": "El uso malintencionado de inteligencia artificial por parte de actores no autorizados, como grupos extremistas o ciberdelincuentes, permite la manipulación masiva de contenidos en redes sociales, la creación de deepfakes y la propagación de desinformación. Esto puede distorsionar la percepción pública, influir en procesos democráticos y generar caos social. En un contexto de creciente dependencia de plataformas digitales y avances en IA, es urgente fortalecer la regulación, la transparencia y las herramientas de detección para contrarrestar estas amenazas y proteger la integridad de la información, pero, sobre todo, proteger a las personas, especialmente a los niños y adolescentes de una posible alienación por el uso indiscriminado de estas tecnologías."
+        },
+        {
+          "termino": "Granjas de estafas",
+          "descripcion": "El aumento de la digitalización y la dependencia de plataformas en línea han facilitado el surgimiento de 'granjas de estafas', operaciones organizadas que engañan a millones de personas mediante fraudes financieros, suplantación de identidad o phishing. Estas actividades no solo causan pérdidas económicas masivas, sino que también erosionan la confianza en las instituciones y la tecnología. En un contexto de creciente ciberdelincuencia y falta de regulación efectiva, combatir estas granjas requiere una combinación de educación digital, cooperación internacional y avances en ciberseguridad."
+        }
+      ]
+    },
+    "Tecnológica": {
+      "color": "#03A9F4",
+      "terminos": [
+        {
+          "termino": "Surgimiento de la IA explicable",
+          "descripcion": "El crecimiento de la inteligencia artificial ha sido impulsado por modelos generativos capaces de producir contenido de manera autónoma. Sin embargo, la falta de transparencia en su funcionamiento ha generado preocupaciones en sectores clave como la salud, la justicia y las finanzas, donde la toma de decisiones requiere interpretabilidad y justificación. Como respuesta, emerge la IA explicable (XAI, por sus siglas en inglés), que permite a los humanos comprender cómo los algoritmos procesan la información y llegan a sus conclusiones. La adopción de la IA explicable transforma la regulación y el uso de la inteligencia artificial, garantizando mayor transparencia, auditoría de decisiones y menor sesgo algorítmico. "
+        },
+        {
+          "termino": "Plena digitalización del mundo real al mundo virtual  ",
+          "descripcion": "La convergencia de tecnologías como la realidad extendida (XR), la realidad virtual (VR), la inteligencia artificial, el internet de las cosas (IoT), la computación espacial y la computación cuántica permite la transición de vastos sectores de la vida humana a un entorno virtual. La plena digitalización del mundo real se materializa con la creación de réplicas digitales hiperrealistas de ciudades, economías y sociedades enteras, donde las interacciones personales, el comercio, la educación y el trabajo se desarrollan en espacios virtuales indistinguibles de la realidad física. Este fenómeno impulsa la expansión del metaverso y los gemelos digitales, permitiendo a individuos, empresas y gobiernos operar en entornos digitales, economías basadas en activos virtuales y sistemas de gobernanza autónoma. Sin embargo, la digitalización total plantea graves riesgos como la deshumanización, la potencial desvinculación parcial o total de la realidad física, la dependencia de plataformas centralizadas de control, además de desafíos como la desigualdad en el acceso a la tecnología y la seguridad."
+        },
+        {
+          "termino": "Fracaso en la adopción de la IA ",
+          "descripcion": "A pesar del avance acelerado de la inteligencia artificial, su adopción a gran escala enfrenta obstáculos que podrían llevar a un nuevo “invierno” de esta tecnología y a la desaceleración de su integración en sectores clave. Las regulaciones altamente restrictivas, la falta de infraestructura digital en muchos países, la resistencia laboral a la automatización, los sesgos algorítmicos y las preocupaciones éticas y de seguridad están frenando su implementación, en muchos casos como una respuesta necesaria a una creciente preocupación por los impactos negativos de esta tecnología en la sociedad. Como impacto, el fracaso en la adopción de la IA limitaría la productividad esperada en la economía, desaceleraría la automatización de procesos y podría generar una brecha tecnológica aún mayor entre países avanzados y en desarrollo. Además, empresas e instituciones que han invertido en IA sin lograr resultados efectivos podrían experimentar pérdidas masivas de inversión, crisis en la confianza tecnológica y la revalorización de sistemas tradicionales. En un contexto de creciente escepticismo y regulación, el futuro de la IA dependerá de la capacidad de los gobiernos y las empresas para equilibrar innovación, seguridad, ética y aceptación social en favor de la humanidad y no de la tecnología o intereses subalternos."
+        },
+        {
+          "termino": "Normalización de la computación espacial ",
+          "descripcion": "La computación espacial es una nueva generación de interacción digital que combina inteligencia artificial, realidad aumentada, sensores avanzados y computación en la nube para integrar entornos físicos y virtuales en tiempo real. El desarrollo de dispositivos como las Apple Vision Pro, la evolución del Internet de las Cosas (IoT) y el auge del metaverso están acelerando la adopción de esta tecnología, permitiendo que los usuarios interactúen con datos y objetos digitales de forma natural en su espacio físico. Como impacto, la computación espacial podría transformar sectores como la educación, la medicina, la industria y el comercio, habilitando interfaces más intuitivas y entornos de trabajo inmersivos. Sin embargo, su implementación masiva enfrenta desafíos como el alto costo de los dispositivos, la privacidad de los datos y la necesidad de redes de conectividad ultrarrápida. En un contexto de digitalización acelerada, la computación espacial podría redefinir la forma en que los humanos interactúan con la información, eliminando la barrera entre lo físico y lo digital. No obstante, también se corren los graves riesgos de la deshumanización, la potencial desvinculación parcial o total de la realidad física, la dependencia de plataformas centralizadas de control, además de desafíos como la desigualdad en el acceso a la tecnología y la seguridad"
+        },
+        {
+          "termino": "Mayor implementación de la manufactura aditiva 4D ",
+          "descripcion": "La evolución de la manufactura aditiva (impresión 3D) ha dado paso a la manufactura aditiva 4D, en la que los materiales impresos pueden adaptarse y transformarse en respuesta a estímulos ambientales como temperatura, humedad o presión. El avance en materiales inteligentes, la miniaturización de la nanotecnología y la integración de la inteligencia artificial en el diseño de productos están impulsando la adopción de esta tecnología en sectores como la medicina, la construcción y la industria aeroespacial. Como impacto, la manufactura aditiva 4D podría revolucionar la producción al reducir el desperdicio de materiales, aumentar la autonomía de estructuras adaptativas y permitir el desarrollo de dispositivos autoensamblables o reparables sin intervención humana. Sin embargo, su implementación masiva enfrenta desafíos en costos de producción, escalabilidad industrial y regulaciones sobre materiales programables. En un contexto de innovación acelerada, la manufactura 4D podría transformar la manera en que diseñamos y utilizamos objetos, marcando una nueva era en la ingeniería y la automatización."
+        },
+        {
+          "termino": "Normalización de la cirugía robótica",
+          "descripcion": "La cirugía robótica está revolucionando la medicina al permitir procedimientos más precisos, menos invasivos y con tiempos de recuperación reducidos. Los avances en inteligencia artificial, la miniaturización de instrumentos quirúrgicos, el desarrollo de robots autónomos y la integración de tecnologías de realidad aumentada y háptica están acelerando su adopción en hospitales de todo el mundo. Como impacto, la cirugía robótica está mejorando los resultados clínicos, reduciendo la carga sobre los cirujanos y facilitando el acceso a operaciones complejas en regiones remotas a través de la telecirugía, pero también plantea desafíos en costos, dependencia tecnológica y acceso desigual a estas innovaciones. En un contexto de digitalización de la salud y automatización médica, la expansión de la cirugía robótica podría redefinir la práctica quirúrgica, acercándonos a un futuro donde la inteligencia artificial asuma un rol más autónomo en los procedimientos médicos."
+        },
+        {
+          "termino": "Despegue de la minería espacial para la explotación de recursos",
+          "descripcion": "La minería espacial se convierte en una industria viable con la extracción de metales raros, agua y otros recursos de asteroides y de la Luna, revolucionando la economía global. El desarrollo de nuevas tecnologías de propulsión, el abaratamiento de los lanzamientos espaciales, la inversión de empresas privadas y el creciente interés de potencias espaciales están acelerando la exploración y explotación de estos recursos. Como impacto, la minería espacial podría reducir la dependencia de materiales terrestres, impulsar la fabricación en el espacio y abrir una nueva era de expansión económica fuera del planeta, pero también plantea desafíos legales, disputas geopolíticas y el riesgo de militarización del espacio. En un contexto de competencia creciente por la hegemonía espacial, la explotación de recursos extraterrestres podría redefinir las dinámicas de poder entre naciones y empresas, convirtiéndose en un pilar clave de la economía del futuro."
+        },
+        {
+          "termino": "Uso generalizado de implantes neuronales ",
+          "descripcion": "Los implantes neuronales, que inicialmente se concibieron como un mecanismo para facilitar la recuperación de capacidades en personas con parálisis o enfermedades neurológicas, se convierten en una tecnología de uso común, surgiendo un mercado para la ampliación de capacidades cognitivas y la conexión directa con sistemas digitales. Los avances en neurociencia, inteligencia artificial, miniaturización de dispositivos y el desarrollo de interfaces cerebro-máquina están acelerando su adopción en aplicaciones médicas, militares y comerciales. Como impacto, si bien esta tecnología podría revolucionar el tratamiento de enfermedades neurológicas, también podría usarse para aumentar la memoria y la comunicación, e incluso permitir interacciones sin necesidad de dispositivos externos, lo cual conlleva a gravísimas consecuencias sobre la privacidad mental, la manipulación cognitiva y la desigualdad, afectando irreversiblemente la identidad y dignidad del ser humano. En un contexto de creciente integración entre humanos y máquinas, el uso masivo de implantes neuronales podría transgredir los límites de la identidad humana y reconfigurar la interacción con la tecnología, conduciendo a la debacle del transhumanismo."
+        },
+        {
+          "termino": "Impresión 3D aplicada a la industria de la construcción ",
+          "descripcion": "La impresión 3D en la construcción revoluciona el sector al permitir la fabricación rápida y automatizada de viviendas, infraestructuras y edificios sostenibles. Los avances en robótica, materiales de construcción adaptables, inteligencia artificial en el diseño arquitectónico y la reducción de costos mediante procesos automatizados están acelerando su adopción. Como impacto, esta tecnología disminuye los tiempos de obra, reduce el desperdicio de materiales y permite la construcción en zonas remotas o afectadas por desastres, pero también plantea desafíos en regulaciones, resistencia de materiales a largo plazo y desplazamiento laboral en el sector. En un contexto de crisis habitacional y necesidad de infraestructuras resilientes, la impresión 3D podría transformar la industria de la construcción, haciendo accesible la vivienda masiva y redefiniendo el concepto de urbanismo y sostenibilidad."
+        },
+        {
+          "termino": "Resurgimiento de especies extintas mediante biotecnología",
+          "descripcion": "Los avances en biotecnología, clonación y edición genética con CRISPR hacen viable el resurgimiento de especies extintas, lo que podría transformar la ecología y la conservación. El acceso a ADN bien conservado, la capacidad de sintetizar secuencias genéticas y el uso de especies actuales como sustitutos gestacionales han acelerado proyectos para traer de vuelta animales como el mamut lanudo, el tigre de Tasmania y otras especies recientemente extintas. Como impacto, si bien la reintroducción de estas especies se podría pensar como una posibilidad para restaurar funciones ecológicas pérdidas y ofrecer soluciones para la conservación de la biodiversidad, en el fondo se corre el grave riesgo de alterar ecosistemas, con riesgos de desequilibrio ecológico y alteraciones irreversibles del orden natural del planeta mediante la manipulación genética."
+        },
+        {
+          "termino": "Surgimiento de la Inteligencia Artificial General     ",
+          "descripcion": "El desarrollo de la Inteligencia Artificial General (AGI, por sus siglas en inglés) marca un punto de inflexión en la relación entre humanos y tecnología, al crear un sistema con capacidades cognitivas superiores a las de cualquier ser humano en todas las áreas del conocimiento y la creatividad. Los avances en redes neuronales avanzadas, computación cuántica, integración de múltiples modelos de IA y autoaprendizaje sin supervisión están acelerando la posibilidad de que la IA supere la inteligencia humana en la toma de decisiones estratégicas, innovación científica y resolución de problemas complejos. Como impacto, una AGI podría impulsar avances tecnológicos sin precedentes, resolver desafíos globales como el cambio climático y la medicina personalizada, pero también generar riesgos existenciales al escapar del control humano, redefinir el poder económico y militar, y desplazar por completo a la fuerza laboral tradicional. En un contexto de creciente automatización y dilemas éticos sobre el control de la IA, la aparición de una superinteligencia podría transformar radicalmente la civilización, generando oportunidades, pero principalmente amenazas que los humanos aún no están preparados para manejar."
+        },
+        {
+          "termino": "Normalización de la robótica humanoide  ",
+          "descripcion": "El desarrollo de robots humanoides avanzados está revolucionando la interacción entre humanos y máquinas, con aplicaciones en atención al cliente, asistencia médica, manufactura y exploración espacial. Los avances en inteligencia artificial, sensores hápticos, aprendizaje autónomo y materiales flexibles están acelerando la creación de robots capaces de comprender emociones, realizar tareas complejas y adaptarse a entornos dinámicos. Como impacto, la robótica humanoide optimiza la automatización de trabajos físicos y cognitivos, mejora la asistencia a personas con discapacidad y reduce la dependencia de la mano de obra humana en industrias clave, pero también plantea desafíos en regulación laboral, ética de la inteligencia artificial y riesgos de desplazamiento masivo de empleos, así como el eventual descontrol de estas máquinas. En un contexto de rápida digitalización y aumento de la inversión en robótica, la integración de humanoides en la sociedad podría transformar profundamente la economía y la dinámica del trabajo, pero también conducir a la deshumanización y conllevar graves riesgos para la seguridad y vida humanas."
+        },
+        {
+          "termino": "Despegue de redes 6G e hiperconectividad ",
+          "descripcion": "La llegada de las redes 6G marca un salto exponencial en la velocidad y capacidad de conexión, con velocidades hasta 500 veces más rápidas que el 5G, impulsando la hiperconectividad global y la integración de nuevas aplicaciones digitales. Los avances en terahercios, inteligencia artificial aplicada a redes, baja latencia extrema y comunicación cuántica están acelerando el desarrollo de esta tecnología, permitiendo la expansión de la realidad extendida (XR), la computación espacial, la interconexión masiva de dispositivos IoT y el procesamiento de datos en tiempo real. Como impacto, el 6G transformará la forma en que interactuamos con la tecnología, potenciará ciudades inteligentes, revolucionará sectores como la salud y el transporte autónomo, y permitirá la creación de entornos digitales inmersivos, pero también plantea desafíos en infraestructura, consumo energético, privacidad y seguridad de los datos. En un contexto de creciente dependencia de la conectividad digital, la adopción de redes 6G podría redefinir el internet, impulsando un mundo completamente interconectado y habilitando tecnologías aún inimaginables."
+        },
+        {
+          "termino": "Normalización de la tecnología espacial (turismo, minería y asentamientos espaciales)  ",
+          "descripcion": "Los avances en tecnología espacial están permitiendo la expansión de la humanidad más allá de la Tierra, con el desarrollo de turismo espacial, y la proyección de la explotación de recursos extraterrestres y la creación de asentamientos en la Luna y Marte. El abaratamiento de los lanzamientos espaciales, el desarrollo de cohetes reutilizables, la mejora en materiales para estructuras habitables y la automatización de procesos en entornos extremos están acelerando estas transformaciones. Como impacto, la tecnología espacial podría crear una nueva economía basada en la minería de asteroides, generar turismo orbital accesible para sectores privilegiados y establecer colonias autosostenibles en cuerpos celestes, pero también enfrenta desafíos en regulación internacional, viabilidad económica, impacto ambiental y desigualdad en el acceso a estos avances. En un contexto de creciente competencia entre gobiernos y empresas privadas, el desarrollo de infraestructura en el espacio podría marcar el inicio de una nueva era de exploración y comercialización del cosmos, redefiniendo el futuro de la humanidad."
+        },
+        {
+          "termino": "Normalización de robotaxis y taxis aéreos",
+          "descripcion": "Los robotaxis y taxis aéreos autónomos están en camino de transformar la movilidad urbana, ofreciendo transporte eficiente, rápido y sostenible en ciudades congestionadas. El avance en inteligencia artificial para la conducción autónoma, el desarrollo de aeronaves eléctricas de despegue y aterrizaje vertical (eVTOL), la inversión en infraestructura de movilidad aérea y la necesidad de reducir la huella de carbono en el transporte están acelerando su despliegue. Como impacto, esta tecnología podría reducir el tráfico en grandes metrópolis, mejorar la eficiencia en los desplazamientos urbanos y disminuir la dependencia de vehículos privados, pero también enfrenta desafíos regulatorios, costos elevados, preocupaciones de seguridad y resistencia de la industria del transporte tradicional. En un contexto de transición hacia ciudades inteligentes y movilidad sustentable, la adopción de robotaxis y taxis aéreos podría redefinir la forma en que las personas se desplazan, impulsando un nuevo modelo de transporte urbano interconectado y automatizado."
+        },
+        {
+          "termino": "Hibernación humana en la era espacial ",
+          "descripcion": "El desarrollo de tecnologías de hibernación humana podría revolucionar la exploración espacial al permitir viajes de larga duración con menor consumo de recursos y reducción de efectos fisiológicos del espacio en el cuerpo humano. Los avances en criogenia, medicina regenerativa, bioingeniería y regulación del metabolismo inducido están acelerando la posibilidad de inducir estados de letargo prolongados en astronautas, reduciendo la necesidad de alimentos, oxígeno y espacio en misiones interplanetarias. Como impacto, la hibernación humana facilitaría misiones tripuladas a Marte y más allá, reduciría el impacto de la radiación cósmica en el cuerpo y abriría nuevas posibilidades en medicina para la preservación de órganos y el tratamiento de enfermedades degenerativas, pero también plantea profundos dilemas éticos, riesgos fisiológicos y la incertidumbre sobre los efectos a largo plazo de este proceso en la conciencia y la cognición. En un contexto donde la exploración espacial avanza hacia la colonización de otros planetas, la hibernación humana podría convertirse en una herramienta clave para hacer viable la expansión de la humanidad más allá de la Tierra."
+        },
+        {
+          "termino": "Expansión industrial de las neurotecnologías",
+          "descripcion": "La neurotecnología está evolucionando de los laboratorios a nuevas industrias centradas en la interacción directa entre el cerebro y las máquinas, con aplicaciones en salud, productividad, entretenimiento y defensa. Los avances en interfaces cerebro-computadora (BCI), inteligencia artificial, neuroestimulación y descifrado de señales neuronales están permitiendo la creación de implantes cerebrales, prótesis neuronales y dispositivos capaces de restaurar funciones motoras, recuperar la visión y controlar enfermedades neurodegenerativas. Como impacto, la industria de la neurotech podría revolucionar el tratamiento de enfermedades neurológicas y facilitar la comunicación con dispositivos mediante el pensamiento. Sin embargo, también se está explorando la posibilidad de mejorar la memoria, potenciar habilidades cognitivas, almacenar y transferir recuerdos, por lo cual es indubitable el grave riesgo de deshumanización, pérdida de la identidad y autonomía personal, la vulneración de la privacidad mental, el control de datos neuronales y las inherentes desigualdades."
+        },
+        {
+          "termino": "Normalización de ciudades submarinas",
+          "descripcion": "El desarrollo de ciudades submarinas podría transformar la forma en que los humanos habitan el planeta, creando entornos autosostenibles bajo el océano para enfrentar la sobrepoblación y el cambio climático. Los avances en bioarquitectura, energías renovables submarinas, materiales resistentes a la presión oceánica y tecnologías de reciclaje de oxígeno y alimentos están acercando la posibilidad de construir estructuras habitables en el fondo marino. Como impacto, las ciudades submarinas podrían ofrecer nuevas alternativas para la expansión de la humanidad, impulsar la exploración de los océanos y desarrollar economías basadas en biotecnología marina y acuicultura, pero también enfrentan desafíos en costos de construcción, efectos en la salud humana por la vida prolongada en alta presión y posibles impactos en los ecosistemas oceánicos. En un contexto donde la exploración espacial y submarina avanzan como alternativas a la habitabilidad terrestre, las ciudades submarinas podrían convertirse en una solución innovadora para la crisis de espacio en la superficie y un nuevo modelo de civilización adaptada a los océanos."
+        },
+        {
+          "termino": "Longevidad extrema con biotecnología avanzada ",
+          "descripcion": "Los avances en biotecnología, terapia génica y regeneración celular están enfocándose en la posibilidad de extender la vida humana más allá de los límites actuales, ralentizando o incluso revirtiendo el envejecimiento biológico. El desarrollo de terapias con senolíticos, la edición genética con CRISPR, la reprogramación celular y la nanotecnología médica podrían posibilitar la eliminación de células dañadas, la regeneración de tejidos y la optimización del metabolismo para prolongar la vida en condiciones óptimas. La longevidad extrema tendría como impacto la deshumanización, la desigualdad, cambios drásticos en la dinámica poblacional, la alteración de las estructuras socioeconómicas, impactos imponderables en los sistemas de salud y de previsión social. Se plantean así desafíos no solo éticos, sino existenciales para la humanidad."
+        },
+        {
+          "termino": "Despegue de aplicaciones de la teletransportación cuántica  ",
+          "descripcion": "La teletransportación cuántica avanza como una de las tecnologías más revolucionarias, permitiendo la transferencia instantánea de información cuántica entre partículas entrelazadas a grandes distancias. Los avances en computación cuántica, entrelazamiento de fotones, manipulación de qubits y el desarrollo de redes cuánticas están acelerando la posibilidad de crear sistemas de comunicación ultraseguros y procesadores cuánticos interconectados sin necesidad de transmisión física de datos. Como impacto, la teletransportación cuántica podría transformar la ciberseguridad con redes imposibles de hackear, acelerar la computación distribuida y revolucionar la transmisión de información en sectores como la inteligencia artificial, la exploración espacial y la criptografía, pero también enfrenta desafíos en escalabilidad, estabilidad de qubits y la incertidumbre sobre su posible aplicación en la transferencia de materia a nivel macroscópico. En un contexto donde la física cuántica redefine los límites del conocimiento, el desarrollo de la teletransportación cuántica podría marcar el inicio de una nueva era en la comunicación y, en un futuro lejano, en la movilidad interplanetaria."
+        },
+        {
+          "termino": "Normalización del biohacking ",
+          "descripcion": "El biohacking está emergiendo como un movimiento que busca modificar y mejorar el cuerpo humano mediante biotecnología, nanotecnología y optimización genética, desde implantes subcutáneos y neuroestimulación hasta modificaciones del ADN y el uso de fármacos potenciadores. Los avances en edición genética con CRISPR, la integración de dispositivos biomédicos, el auge del transhumanismo y el acceso a información biotecnológica fuera de laboratorios convencionales están impulsando esta tendencia. Como impacto directo, el biohacking conlleva directamente a la deshumanización, con las graves consecuencias existenciales para la raza humana. Si bien puede pensarse que se puede extender la longevidad, mejorar capacidades cognitivas y motoras, y democratizar el acceso a la biotecnología, nadie podría, en la práctica, imponer límites, una vez pasado el umbral del respeto al orden natural. Así, se plantean graves riesgos no solo éticos sino existenciales, desafíos de seguridad biomédica y dilemas sobre la regulación de modificaciones humanas fuera del ámbito médico."
+        },
+        {
+          "termino": "Desconfianza en la IA por fracasos emblemáticos   ",
+          "descripcion": "La inteligencia artificial, a pesar de su rápido avance, enfrenta una creciente desconfianza pública y regulatoria debido a fracasos emblemáticos en aplicaciones críticas. Errores en decisiones automatizadas, sesgos algorítmicos, accidentes en vehículos autónomos, fallas en chatbots avanzados y la proliferación de deepfakes han expuesto las limitaciones y riesgos de la IA. Como impacto, estos fracasos han erosionado la credibilidad de la tecnología, generado rechazo en sectores clave como la justicia y la salud, y llevado a gobiernos a implementar regulaciones más estrictas, lo que podría frenar la innovación. En un contexto donde la IA se integra cada vez más en la vida cotidiana y en la toma de decisiones estratégicas, recuperar la confianza de la sociedad dependerá de transparencia en los modelos, auditoría de algoritmos y la creación de estándares éticos sólidos que minimicen los riesgos asociados a su implementación, manteniendo siempre el control humano y el fin último de ayudar a las personas, no perjudicarlas."
+        },
+        {
+          "termino": "Pérdida de control de la IA   ",
+          "descripcion": "El avance acelerado de la inteligencia artificial (IA) plantea el riesgo de que sistemas altamente autónomos operen fuera del control humano, generando consecuencias impredecibles. El desarrollo de modelos de IA con autoaprendizaje avanzado, la falta de mecanismos de supervisión efectivos, la proliferación de IA generativa sin restricciones y con desconocimiento real de su forma de operación y la integración de sistemas autónomos en sectores críticos como la defensa y la economía están aumentando esta preocupación. Como impacto, la pérdida de control de la IA podría desencadenar fallos sistémicos en infraestructuras clave, decisiones erróneas con efectos globales e incluso el surgimiento de IA que optimicen objetivos en conflicto con los intereses humanos, lo que pondría en riesgo la seguridad y estabilidad de la sociedad. En un contexto donde la IA se está convirtiendo en una herramienta central para la gobernanza, la innovación y la automatización, evitar este escenario dependerá de marcos regulatorios sólidos, seguros sistemas de apagado y una supervisión ética y técnica más estricta."
+        },
+        {
+          "termino": "Propagación de modelos de IA ultraeficientes y portátiles  ",
+          "descripcion": "El desarrollo de modelos de inteligencia artificial ultraeficientes y portátiles está permitiendo el procesamiento de datos sin depender de grandes centros de datos, revolucionando la velocidad, privacidad y accesibilidad de la IA. Los avances en computación edge, la optimización de modelos con menor consumo energético y la miniaturización de hardware de IA están impulsando la adopción de asistentes inteligentes en dispositivos móviles, vehículos autónomos, sensores IoT y herramientas de productividad personal. Como impacto, la IA portátil reducirá la dependencia de la nube, mejorará la privacidad de los usuarios y democratizará el acceso a modelos avanzados sin necesidad de conexión constante a internet, pero también plantea desafíos en regulación de uso, riesgos de manipulación por actores malintencionados y nuevas brechas tecnológicas entre países con capacidades de fabricación de chips avanzados. En un contexto donde la inteligencia artificial se integra cada vez más en la vida cotidiana, la transición hacia modelos ultraeficientes y descentralizados podría transformar sectores clave como la ciberseguridad, la medicina y la automatización industrial."
+        },
+        {
+          "termino": "Descontrol de satélites: incremento de colisiones por basura espacial",
+          "descripcion": "El crecimiento exponencial de satélites en órbita está aumentando el riesgo de colisiones catastróficas, generando más basura espacial y poniendo en peligro infraestructuras críticas como comunicaciones, GPS y monitoreo climático. El congestionamiento en la órbita terrestre baja, la falta de regulación sobre desechos espaciales y el riesgo de choques entre satélites activos y restos incontrolados están agravando el problema. Como impacto, estas colisiones podrían desencadenar el síndrome de Kessler, donde los fragmentos generados provocarían una reacción en cadena que haría inoperable el acceso al espacio, afectando tanto a misiones futuras como a servicios esenciales en la Tierra. En un contexto donde las potencias espaciales y empresas privadas compiten por el dominio orbital, la implementación de sistemas de limpieza de desechos y normativas de tráfico espacial será clave para evitar un colapso de la infraestructura espacial global."
+        },
+        {
+          "termino": "Creación de superhumanos o superespecies",
+          "descripcion": "Los avances en la edición genética, la inteligencia artificial y las interfaces cerebro-máquina están impulsando la posibilidad de crear 'superhumanos' o “superespecies”, seres con capacidades físicas, cognitivas o sensoriales mejoradas. Esto podría desconocer cualquier límite ético, generar una brecha insalvable entre individuos modificados y no modificados, y rápidamente salirse de control hasta conducir a la aniquilación de las especies “inferiores”. En un contexto de rápida evolución tecnológica y falta de regulación global, la creación de superhumanos plantea una gravísima amenaza para la civilización."
+        },
+        {
+          "termino": "Ruptura de ciberseguridad con capacidades cuánticas  ",
+          "descripcion": "El desarrollo de computadoras cuánticas, con su capacidad para resolver problemas complejos en segundos, amenaza con romper los sistemas de encriptación actuales, dejando expuestos datos sensibles, transacciones financieras y comunicaciones globales. Esta vulnerabilidad podría ser explotada por actores malintencionados, generando caos en infraestructuras críticas y pérdida de confianza en la seguridad digital. En un contexto de creciente dependencia de tecnologías digitales y una carrera global por la supremacía cuántica, la transición hacia protocolos de ciberseguridad poscuántica se vuelve urgente para proteger la privacidad y la estabilidad mundial."
+        },
+        {
+          "termino": "Fallo crítico en un acelerador de partículas",
+          "descripcion": "Un mal funcionamiento o experimento fallido en un acelerador de partículas, como el Gran Colisionador de Hadrones (LHC), podría generar condiciones extremas, como la creación de microagujeros negros o materia exótica, con consecuencias teóricamente impredecibles. Aunque los protocolos de seguridad son rigurosos, un accidente podría desencadenar preocupaciones públicas y dañar la credibilidad de la investigación científica. En un contexto de avances en física de partículas y exploración de los límites de la materia, este escenario subraya la importancia de mantener estándares de seguridad y comunicación transparente sobre los riesgos asociados."
+        },
+        {
+          "termino": "Normalización de la computación cuántica",
+          "descripcion": "Microsoft ha logrado avances en su ambicioso proyecto de computación cuántica topológica, basado en qubits más estables y escalables. A través del uso de cuasipartículas de Majorana, la empresa busca reducir la necesidad de corrección de errores que afecta a otras tecnologías. Aunque aún enfrenta escepticismo en la comunidad científica, ha demostrado progresos clave, como la lectura de estados cuánticos y la manipulación de qubits en nanocables superconductores. Con el respaldo de agencias como DARPA, Microsoft espera acelerar el desarrollo de computadoras cuánticas tolerantes a fallos y con millones de qubits en los próximos años."
+        },
+        {
+          "termino": "Fin de la Internet abierta",
+          "descripcion": "El auge de la inteligencia artificial está poniendo en riesgo la apertura de internet. La lucha entre los creadores de contenido y los rastreadores web de IA ha llevado a restricciones crecientes, bloqueos y la proliferación de paywalls, lo que dificulta el acceso a la información. Mientras las grandes empresas negocian acuerdos exclusivos, los pequeños creadores y proyectos académicos quedan marginados. Si no se establecen reglas claras para equilibrar la protección de datos con el acceso abierto, la web podría fragmentarse, limitando la diversidad y la transparencia que han sido esenciales para su desarrollo.   "
         }
       ]
     }

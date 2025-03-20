@@ -13,18 +13,6 @@ function toggleTheme() {
     }
 }
 
-// Cargar el archivo JSON real y otras funciones
-fetch('./glosario.json')
-.then(response => response.json())
-.then(data => {
-    renderHeader(data); // Renderizar título, descripción y logo desde JSON
-    renderGlosario(data); // Renderizar los términos desde el inicio
-    createCategoryButtons(data); // Crear los botones de categorías
-})
-.catch(error => {
-    console.error('Error al cargar el archivo JSON:', error);
-});
-
 document.addEventListener("DOMContentLoaded", function() {
     const themeToggle = document.getElementById('theme-toggle');
     const prefersDarkScheme = window.matchMedia("(prefers-color-scheme: dark)");
@@ -41,6 +29,9 @@ document.addEventListener("DOMContentLoaded", function() {
     fetch('glosario.json')
     .then(response => response.json())
     .then(data => {
+        renderHeader(data); // Renderizar título, descripción y logo desde JSON
+        renderGlosario(data); // Renderizar los términos desde el inicio
+        createCategoryButtons(data); // Crear los botones de categorías
         logos.light = data.logo;
         logos.dark = data.logo_dark;
 
@@ -87,42 +78,33 @@ function renderHeader(data) {
 
 // Renderizar términos de riesgos y oportunidades
 function renderGlosario(data) {
-    const riesgosSection = document.getElementById('glosario-riesgos');
-    const oportunidadesSection = document.getElementById('glosario-oportunidades');
-    riesgosSection.innerHTML = '';
-    oportunidadesSection.innerHTML = '';
+    const glosarioSection = document.getElementById('glosario');
+    glosarioSection.innerHTML = ''; // Limpiar la sección del glosario
 
     // Recorremos cada temática usando Object.keys para obtener los nombres de las temáticas
     Object.keys(data.tematicas).forEach(tematicaNombre => {
         const tematica = data.tematicas[tematicaNombre];  // Obtenemos el objeto tematica
 
-        // Recorremos los riesgos de la temática
-        tematica.riesgos.forEach(termino => {
+        // Crear un contenedor para la temática
+        const tematicaDiv = document.createElement('div');
+        tematicaDiv.className = 'tematica';
+        tematicaDiv.innerHTML = `<h2 style="color: ${tematica.color}">${tematicaNombre}</h2>`;
+
+        // Recorremos los términos de la temática
+        tematica.terminos.forEach(termino => {
             const termDiv = document.createElement('div');
             termDiv.className = 'term';
-            termDiv.dataset.tematica = tematicaNombre.toLowerCase();  // Usamos el nombre de la temática directamente
+            termDiv.dataset.tematica = tematicaNombre.toLowerCase();
             termDiv.style.borderLeftColor = tematica.color; // Aplicar color de la temática
             termDiv.innerHTML = `<div class="term-header" style="color: ${tematica.color}">${termino.termino}</div>
                                  <p>${termino.descripcion}</p>`;
             termDiv.onclick = function() {
-                openModal(termino.termino, termino.descripcion, tematicaNombre, tematica.color, 'riesgos');
+                openModal(termino.termino, termino.descripcion, tematicaNombre, tematica.color);
             };
-            riesgosSection.appendChild(termDiv);
+            tematicaDiv.appendChild(termDiv);
         });
 
-        // Recorremos las oportunidades de la temática
-        tematica.oportunidades.forEach(termino => {
-            const termDiv = document.createElement('div');
-            termDiv.className = 'term';
-            termDiv.dataset.tematica = tematicaNombre.toLowerCase();  // Usamos el nombre de la temática directamente
-            termDiv.style.borderLeftColor = tematica.color; // Aplicar color de la temática
-            termDiv.innerHTML = `<div class="term-header" style="color: ${tematica.color}">${termino.termino}</div>
-                                 <p>${termino.descripcion}</p>`;
-            termDiv.onclick = function() {
-                openModal(termino.termino, termino.descripcion, tematicaNombre, tematica.color, 'oportunidades');
-            };
-            oportunidadesSection.appendChild(termDiv);
-        });
+        glosarioSection.appendChild(tematicaDiv);
     });
 }
 
@@ -157,54 +139,44 @@ function createCategoryButtons(data) {
 
 // Filtrar términos por categoría
 function filterByCategory(category) {
-    const riesgosTerms = document.querySelectorAll('#glosario-riesgos .term');
-    const oportunidadesTerms = document.querySelectorAll('#glosario-oportunidades .term');
+    const tematicas = document.querySelectorAll('#glosario .tematica'); // Seleccionar todas las temáticas
     const categoryBtns = document.querySelectorAll('.category-btn');
-
-    // Obtener los títulos de "Riesgos" y "Oportunidades"
-    const riesgosTitle = document.getElementById('riesgos-title');
-    const oportunidadesTitle = document.getElementById('oportunidades-title');
 
     // Resaltar botón activo
     categoryBtns.forEach(btn => btn.classList.remove('active'));
     if (category === '') {
         document.querySelector('.category-btn').classList.add('active'); // Resalta "Todos"
-        // Restablecemos el color de las líneas a transparente
-        riesgosTitle.style.borderBottomColor = 'transparent';
-        oportunidadesTitle.style.borderBottomColor = 'transparent';
     } else {
         categoryBtns.forEach(btn => {
             if (btn.innerHTML.toLowerCase() === category) {
                 btn.classList.add('active');
                 btn.style.backgroundColor = btn.style.borderColor;
-
-                // Cambiamos el color de la línea debajo de "Riesgos" y "Oportunidades"
-                const color = btn.style.borderColor; // Usamos el color del borde del botón
-                riesgosTitle.style.borderBottomColor = color;
-                oportunidadesTitle.style.borderBottomColor = color;
             } else {
                 btn.style.backgroundColor = ''; // Restablecer otros botones
             }
         });
     }
 
-    // Filtrar términos de riesgos
-    riesgosTerms.forEach(term => {
-        if (category === '' || term.dataset.tematica === category) {
-            term.style.display = 'block';
-            term.classList.add('fade-in');
-        } else {
-            term.style.display = 'none';
-        }
-    });
+    // Filtrar temáticas y términos
+    tematicas.forEach(tematica => {
+        const terms = tematica.querySelectorAll('.term'); // Seleccionar los términos dentro de la temática
+        let hasVisibleTerms = false; // Bandera para saber si hay términos visibles en esta temática
 
-    // Filtrar términos de oportunidades
-    oportunidadesTerms.forEach(term => {
-        if (category === '' || term.dataset.tematica === category) {
-            term.style.display = 'block';
-            term.classList.add('fade-in');
+        terms.forEach(term => {
+            if (category === '' || term.dataset.tematica === category) {
+                term.style.display = 'block';
+                term.classList.add('fade-in');
+                hasVisibleTerms = true; // Hay al menos un término visible en esta temática
+            } else {
+                term.style.display = 'none';
+            }
+        });
+
+        // Mostrar u ocultar la temática según si tiene términos visibles
+        if (hasVisibleTerms || category === '') {
+            tematica.style.display = 'block'; // Mostrar la temática
         } else {
-            term.style.display = 'none';
+            tematica.style.display = 'none'; // Ocultar la temática
         }
     });
 }
@@ -216,39 +188,38 @@ function filterByCategory(category) {
 // Buscar términos
 function filterTerms() {
     const searchInput = document.getElementById('search').value.toLowerCase();
-    const riesgosTerms = document.querySelectorAll('#glosario-riesgos .term');
-    const oportunidadesTerms = document.querySelectorAll('#glosario-oportunidades .term');
-    
+    const tematicas = document.querySelectorAll('#glosario .tematica'); // Seleccionar todas las temáticas
+
     // Detectar la categoría seleccionada (si hay alguna)
     const activeCategoryBtn = document.querySelector('.category-btn.active');
     const selectedCategory = activeCategoryBtn && activeCategoryBtn.innerHTML.toLowerCase() !== 'todos'
         ? activeCategoryBtn.innerHTML.toLowerCase()
         : ''; // Si no hay categoría seleccionada o es "Todos", seleccionamos todos
 
-    // Filtrar términos de acuerdo a la temática seleccionada
-    riesgosTerms.forEach(term => {
-        const termText = term.innerText.toLowerCase();
-        const termCategory = term.dataset.tematica.toLowerCase();
+    // Filtrar temáticas y términos
+    tematicas.forEach(tematica => {
+        const terms = tematica.querySelectorAll('.term'); // Seleccionar los términos dentro de la temática
+        let hasVisibleTerms = false; // Bandera para saber si hay términos visibles en esta temática
 
-        // Mostrar solo los términos de la categoría seleccionada y que coincidan con la búsqueda
-        if ((selectedCategory === '' || termCategory === selectedCategory) && termText.includes(searchInput)) {
-            term.style.display = 'block';
-            term.classList.add('fade-in');
+        terms.forEach(term => {
+            const termText = term.innerText.toLowerCase();
+            const termCategory = term.dataset.tematica.toLowerCase();
+
+            // Mostrar solo los términos de la categoría seleccionada y que coincidan con la búsqueda
+            if ((selectedCategory === '' || termCategory === selectedCategory) && termText.includes(searchInput)) {
+                term.style.display = 'block';
+                term.classList.add('fade-in');
+                hasVisibleTerms = true; // Hay al menos un término visible en esta temática
+            } else {
+                term.style.display = 'none';
+            }
+        });
+
+        // Mostrar u ocultar la temática según si tiene términos visibles
+        if (hasVisibleTerms || (searchInput === '' && selectedCategory === '')) {
+            tematica.style.display = 'block'; // Mostrar la temática
         } else {
-            term.style.display = 'none';
-        }
-    });
-
-    oportunidadesTerms.forEach(term => {
-        const termText = term.innerText.toLowerCase();
-        const termCategory = term.dataset.tematica.toLowerCase();
-
-        // Mostrar solo los términos de la categoría seleccionada y que coincidan con la búsqueda
-        if ((selectedCategory === '' || termCategory === selectedCategory) && termText.includes(searchInput)) {
-            term.style.display = 'block';
-            term.classList.add('fade-in');
-        } else {
-            term.style.display = 'none';
+            tematica.style.display = 'none'; // Ocultar la temática
         }
     });
 }
@@ -256,13 +227,13 @@ function filterTerms() {
 
 // Funciones para el modal
 // Función para abrir el modal y mostrar el término seleccionado
-function openModal(termTitle, termDescription, termTematica, tematicaColor, termType) {
+function openModal(termTitle, termDescription, termTematica, tematicaColor) {
     const modal = document.getElementById('termModal');
     const modalTitle = document.getElementById('modal-term-title');
     const modalDescription = document.getElementById('modal-term-description');
     const modalTematica = document.getElementById('modal-term-tematica');
-    const modalType = document.getElementById('modal-term-type');
 
+    // Mostrar el título y la descripción del término
     modalTitle.innerText = termTitle;
     modalDescription.innerText = termDescription;
 
@@ -270,10 +241,6 @@ function openModal(termTitle, termDescription, termTematica, tematicaColor, term
     modalTematica.innerText = `Temática: ${termTematica}`;
     modalTematica.style.backgroundColor = tematicaColor;
     modalTematica.style.color = "#fff"; // Texto blanco por defecto
-
-    // Mostrar si es Riesgo u Oportunidad
-    modalType.innerText = termType === 'riesgos' ? 'Riesgos' : 'Oportunidades';
-    modalType.style.backgroundColor = termType === 'riesgos' ? '#FF5722' : '#4CAF50'; // Color basado en el tipo
 
     // Mostrar el modal con una transición elegante
     modal.classList.add('open');
